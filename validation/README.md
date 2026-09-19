@@ -6,19 +6,24 @@ company, client, employee, or project.
 
 ## Layout
 
+The release-approved fixtures live at the repository root under `public/`. The
+analysis scripts live under `scripts/analysis/`. This directory holds the study
+materials and aggregate results.
+
 | Path | Description |
 |------|-------------|
-| `public/` | Sanitized fixtures and the release manifest |
-| `results/` | Aggregate sensitivity and contrast results |
 | `expert-study/` | Blind comparison protocol, case brief, blank rating form, recruitment templates |
 | `expert-study-cn/` | China-track case brief and aggregate round-2 agreement results |
+| `results/` | Aggregate sensitivity and contrast results |
 | `survey-forms/` | Questionnaire item bank and platform import templates |
 
 ## Run
 
+Run from the repository root:
+
 ```sh
-python run_sensitivity.py
-python test_analysis.py
+python scripts/analysis/run_sensitivity.py
+python scripts/analysis/test_analysis.py
 ```
 
 Verify a fixture before analysis:

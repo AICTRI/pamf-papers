@@ -1,3 +1,8 @@
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
 import argparse
 import csv
 import itertools
@@ -6,6 +11,8 @@ from collections import Counter
 from pathlib import Path
 
 from openpyxl import load_workbook
+
+from _paths import EXPERTS
 
 
 LABELS = ("Optional", "Recommended", "Mandatory")
@@ -134,7 +141,7 @@ def majority_rating(raters: list[dict[str, str]], item_id: str) -> str:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "--study-dir", type=Path, default=Path(__file__).parent / "expert-study"
+        "--study-dir", type=Path, default=EXPERTS
     )
     args = parser.parse_args()
 

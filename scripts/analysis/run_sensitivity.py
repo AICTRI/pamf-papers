@@ -1,9 +1,16 @@
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
 import argparse
 import csv
 import json
 import math
 from collections import Counter
 from pathlib import Path
+
+from _paths import PUBLIC, RESULTS
 
 
 CLASSIFICATIONS = ("Mandatory", "Recommended", "Optional")
@@ -70,10 +77,10 @@ def main() -> None:
     parser.add_argument(
         "--fixture",
         type=Path,
-        default=Path(__file__).parent / "public" / "case_x_fixture.json",
+        default=PUBLIC / "case_x_fixture.json",
     )
     parser.add_argument(
-        "--output-dir", type=Path, default=Path(__file__).parent / "results"
+        "--output-dir", type=Path, default=RESULTS
     )
     args = parser.parse_args()
 

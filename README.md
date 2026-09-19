@@ -12,23 +12,25 @@ for the boundary.
 
 | Path | Description |
 |------|-------------|
-| `validation/public/` | Fictional benchmark fixtures (`case_x`, `case_m`, `case_low_risk`) with SHA-256 digests |
-| `validation/results/` | Aggregate sensitivity, threshold, and combination-rule results |
+| `public/` | Fictional benchmark fixtures (`case_x`, `case_m`, `case_low_risk`) with SHA-256 digests and the release manifest |
 | `validation/expert-study/` | Blind expert comparison protocol, case brief, rating form, and recruitment templates |
 | `validation/expert-study-cn/` | China-track case brief and aggregate round-2 agreement results |
+| `validation/results/` | Aggregate sensitivity, threshold, and combination-rule results |
 | `validation/survey-forms/` | Questionnaire item bank and platform import templates |
-| `validation/*.py` | Reproducible sensitivity and agreement analysis scripts |
+| `scripts/analysis/` | Reproducible sensitivity and agreement analysis scripts |
 
 ## Reproduce the analysis
 
+Run from the repository root:
+
 ```sh
 pip install openpyxl
-python validation/run_sensitivity.py
-python validation/test_analysis.py
+python scripts/analysis/run_sensitivity.py
+python scripts/analysis/test_analysis.py
 ```
 
-The expert-rating analysis (`validation/analyze_expert_ratings.py`) requires
-frozen participant workbooks that are not distributed publicly.
+The expert-rating analysis (`scripts/analysis/analyze_expert_ratings.py`)
+requires frozen participant workbooks that are not distributed publicly.
 
 ## Related software
 

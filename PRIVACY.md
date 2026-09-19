@@ -2,7 +2,7 @@
 
 This public repository is a curated subset of the private research workspace.
 The source of truth for the release decision is
-[`validation/public/PUBLIC_RELEASE_MANIFEST.md`](validation/public/PUBLIC_RELEASE_MANIFEST.md).
+[`public/PUBLIC_RELEASE_MANIFEST.md`](public/PUBLIC_RELEASE_MANIFEST.md).
 
 ## Published
 

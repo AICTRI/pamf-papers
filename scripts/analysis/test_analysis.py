@@ -1,6 +1,11 @@
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
 import unittest
 
-from analyze_expert_ratings import exact_agreement, fleiss_kappa, weighted_kappa
+from analysis.analyze_expert_ratings import exact_agreement, fleiss_kappa, weighted_kappa
 
 
 class AgreementAnalysisTests(unittest.TestCase):
