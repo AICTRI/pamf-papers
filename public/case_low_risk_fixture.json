@@ -1,11 +1,11 @@
 {
   "decisions": [
     {
-      "classification": "Optional",
+      "classification": "Recommended",
       "concern_key": "A1",
       "definition": "System boundary. What is inside and outside the system?",
       "layer": "Context & Application",
-      "score": 0.35,
+      "score": 0.63,
       "viewpoint": "System Context View"
     },
     {
@@ -29,7 +29,7 @@
       "concern_key": "A4",
       "definition": "Access responsibility. Which roles can access which applications?",
       "layer": "Context & Application",
-      "score": 0.15,
+      "score": 0.43,
       "viewpoint": "User Role-Application Mapping View"
     },
     {
@@ -49,11 +49,11 @@
       "viewpoint": "Application Resilience"
     },
     {
-      "classification": "Optional",
+      "classification": "Recommended",
       "concern_key": "AGD1",
       "definition": "Decision rationale. What architectural decisions were made and why?",
       "layer": "Architecture Governance & Decision",
-      "score": 0.35,
+      "score": 0.63,
       "viewpoint": "Architecture Decision View"
     },
     {
@@ -97,11 +97,11 @@
       "viewpoint": "Control Traceability Matrix"
     },
     {
-      "classification": "Optional",
+      "classification": "Recommended",
       "concern_key": "AGD7",
       "definition": "Document decision rationale and approval trail.",
       "layer": "Architecture Governance & Decision",
-      "score": 0.35,
+      "score": 0.63,
       "viewpoint": "Architecture Decision Record"
     },
     {
@@ -145,11 +145,11 @@
       "viewpoint": "Interaction & Influence View"
     },
     {
-      "classification": "Optional",
+      "classification": "Recommended",
       "concern_key": "C1",
       "definition": "Runtime containers. What are the main runtime units?",
       "layer": "Container / Component / Technical Service",
-      "score": 0.35,
+      "score": 0.63,
       "viewpoint": "Container View"
     },
     {
@@ -494,23 +494,23 @@
   "risk_items": [
     {
       "concern_key": "A1",
-      "raw_activation_score": 8.0
-    },
-    {
-      "concern_key": "A4",
       "raw_activation_score": 3.0
     },
     {
+      "concern_key": "A4",
+      "raw_activation_score": 2.0
+    },
+    {
       "concern_key": "AGD1",
-      "raw_activation_score": 8.0
+      "raw_activation_score": 3.0
     },
     {
       "concern_key": "AGD7",
-      "raw_activation_score": 8.0
+      "raw_activation_score": 3.0
     },
     {
       "concern_key": "C1",
-      "raw_activation_score": 8.0
+      "raw_activation_score": 3.0
     }
   ],
   "scenario_id": "case-low-risk",

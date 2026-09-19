@@ -22,7 +22,7 @@ def concern_score(raw_score: float, complexity: float, weight_scale: float = 1.0
     # replaces the coarse ceil(sqrt()) risk-level transform.
     if raw_score <= 0:
         return 0.0
-    base = min(25.0, raw_score * weight_scale) / 25.0
+    base = min(5.0, raw_score * weight_scale) / 5.0
     return min(1.0, round(base + 0.15 * complexity, 4))
 
 
@@ -89,7 +89,7 @@ def main() -> None:
         for decision in fixture["decisions"]
     }
     reproduced = {
-        key: classify(concern_score(scores.get(key, 0.0), complexity), 0.66, 0.38)
+        key: classify(concern_score(scores.get(key, 0.0), complexity), 0.90, 0.50)
         for key in concern_keys
     }
     mismatches = {
@@ -102,8 +102,8 @@ def main() -> None:
     args.output_dir.mkdir(parents=True, exist_ok=True)
 
     threshold_rows = []
-    for mandatory in (0.60, 0.63, 0.66, 0.70, 0.73, 0.75):
-        for recommended in (0.30, 0.34, 0.38, 0.42, 0.46):
+    for mandatory in (0.80, 0.85, 0.88, 0.90, 0.92, 0.95):
+        for recommended in (0.40, 0.45, 0.50, 0.55, 0.60):
             if recommended >= mandatory:
                 continue
             counts = distribution(
@@ -124,7 +124,7 @@ def main() -> None:
 
     weight_rows = []
     for scale in (0.8, 0.9, 1.0, 1.1, 1.2):
-        counts = distribution(concern_keys, scores, complexity, 0.66, 0.38, scale)
+        counts = distribution(concern_keys, scores, complexity, 0.90, 0.50, scale)
         weight_rows.append(
             {
                 "weight_scale": scale,
@@ -139,9 +139,9 @@ def main() -> None:
 
     ablated_scores = dict(scores)
     for key in ("D7", "D9", "SCR7", "SCR1"):
-        ablated_scores[key] = max(0.0, ablated_scores.get(key, 0.0) - 15.0)
-    baseline = distribution(concern_keys, scores, complexity, 0.66, 0.38)
-    ablated = distribution(concern_keys, ablated_scores, complexity, 0.66, 0.38)
+        ablated_scores[key] = max(0.0, ablated_scores.get(key, 0.0) - 2.0)
+    baseline = distribution(concern_keys, scores, complexity, 0.90, 0.50)
+    ablated = distribution(concern_keys, ablated_scores, complexity, 0.90, 0.50)
     ablation_rows = [
         {"condition": "combination_rule_enabled", **baseline},
         {"condition": "combination_rule_ablated", **ablated},

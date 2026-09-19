@@ -1,27 +1,27 @@
 {
   "decisions": [
     {
-      "classification": "Mandatory",
+      "classification": "Recommended",
       "concern_key": "A1",
       "definition": "System boundary. What is inside and outside the system?",
       "layer": "Context & Application",
-      "score": 0.715,
+      "score": 0.775,
       "viewpoint": "System Context View"
     },
     {
-      "classification": "Mandatory",
+      "classification": "Recommended",
       "concern_key": "A2",
       "definition": "Functional decomposition. How are application functions grouped?",
       "layer": "Context & Application",
-      "score": 0.715,
+      "score": 0.825,
       "viewpoint": "Application Functional View"
     },
     {
-      "classification": "Mandatory",
+      "classification": "Recommended",
       "concern_key": "A3",
       "definition": "Application collaboration. How do applications interact and depend on each other?",
       "layer": "Context & Application",
-      "score": 0.715,
+      "score": 0.725,
       "viewpoint": "Application Interaction View"
     },
     {
@@ -53,7 +53,7 @@
       "concern_key": "AGD1",
       "definition": "Decision rationale. What architectural decisions were made and why?",
       "layer": "Architecture Governance & Decision",
-      "score": 0.395,
+      "score": 0.675,
       "viewpoint": "Architecture Decision View"
     },
     {
@@ -69,7 +69,7 @@
       "concern_key": "AGD3",
       "definition": "Trade-off reasoning. How are quality attributes balanced?",
       "layer": "Architecture Governance & Decision",
-      "score": 0.395,
+      "score": 0.675,
       "viewpoint": "Quality Attribute Trade-off View"
     },
     {
@@ -109,7 +109,7 @@
       "concern_key": "B1",
       "definition": "Capability structure. What business capabilities exist and which are critical?",
       "layer": "Business / Organization",
-      "score": 0.395,
+      "score": 0.675,
       "viewpoint": "Business Capability View"
     },
     {
@@ -117,7 +117,7 @@
       "concern_key": "B2",
       "definition": "End-to-end workflows. How do business processes execute across domains?",
       "layer": "Business / Organization",
-      "score": 0.395,
+      "score": 0.675,
       "viewpoint": "Business Process View"
     },
     {
@@ -141,39 +141,39 @@
       "concern_key": "B5",
       "definition": "Cross-domain influence. How do organizational units influence each other?",
       "layer": "Business / Organization",
-      "score": 0.395,
+      "score": 0.675,
       "viewpoint": "Interaction & Influence View"
     },
     {
-      "classification": "Mandatory",
+      "classification": "Recommended",
       "concern_key": "C1",
       "definition": "Runtime containers. What are the main runtime units?",
       "layer": "Container / Component / Technical Service",
-      "score": 0.715,
+      "score": 0.825,
       "viewpoint": "Container View"
     },
     {
-      "classification": "Mandatory",
+      "classification": "Recommended",
       "concern_key": "C2",
       "definition": "Internal modularity. How are components structured within containers?",
       "layer": "Container / Component / Technical Service",
-      "score": 1.0,
+      "score": 0.775,
       "viewpoint": "Component View"
     },
     {
-      "classification": "Mandatory",
+      "classification": "Recommended",
       "concern_key": "C3",
       "definition": "Service responsibility. What capability boundary does each service own?",
       "layer": "Container / Component / Technical Service",
-      "score": 1.0,
+      "score": 0.825,
       "viewpoint": "Technical Service View"
     },
     {
-      "classification": "Mandatory",
+      "classification": "Recommended",
       "concern_key": "C4",
       "definition": "Technology choices. Which languages, frameworks, and platforms are used?",
       "layer": "Container / Component / Technical Service",
-      "score": 0.715,
+      "score": 0.775,
       "viewpoint": "Technical Stack View"
     },
     {
@@ -181,7 +181,7 @@
       "concern_key": "C5",
       "definition": "Interaction mechanisms. How do components communicate?",
       "layer": "Container / Component / Technical Service",
-      "score": 0.395,
+      "score": 0.725,
       "viewpoint": "Communication & Protocol View"
     },
     {
@@ -257,11 +257,11 @@
       "viewpoint": "Data Compliance Flow View"
     },
     {
-      "classification": "Optional",
+      "classification": "Recommended",
       "concern_key": "D8",
       "definition": "Technical pipelines. How is data processed technically?",
       "layer": "Data Architecture",
-      "score": 0.0,
+      "score": 0.675,
       "viewpoint": "Data Pipeline View"
     },
     {
@@ -273,27 +273,27 @@
       "viewpoint": "Data Sovereignty View"
     },
     {
-      "classification": "Optional",
+      "classification": "Mandatory",
       "concern_key": "DIN1",
       "definition": "Deployment topology. Where are applications deployed?",
       "layer": "Deployment / Infrastructure / Networking",
-      "score": 0.0,
+      "score": 1.0,
       "viewpoint": "Application Deployment Location View"
     },
     {
-      "classification": "Optional",
+      "classification": "Mandatory",
       "concern_key": "DIN2",
       "definition": "Network segmentation. How is the network structured?",
       "layer": "Deployment / Infrastructure / Networking",
-      "score": 0.0,
+      "score": 1.0,
       "viewpoint": "Network Topology View"
     },
     {
-      "classification": "Optional",
+      "classification": "Recommended",
       "concern_key": "DIN3",
       "definition": "Infrastructure layout. What infrastructure components exist?",
       "layer": "Deployment / Infrastructure / Networking",
-      "score": 0.0,
+      "score": 0.675,
       "viewpoint": "Infrastructure Composition View"
     },
     {
@@ -313,11 +313,11 @@
       "viewpoint": "Disaster Recovery"
     },
     {
-      "classification": "Optional",
+      "classification": "Recommended",
       "concern_key": "DIN6",
       "definition": "Plan horizontal and vertical scaling with bottleneck controls.",
       "layer": "Deployment / Infrastructure / Networking",
-      "score": 0.0,
+      "score": 0.675,
       "viewpoint": "Scalability and Capacity"
     },
     {
@@ -325,7 +325,7 @@
       "concern_key": "IP1",
       "definition": "Business-level integration. How do applications exchange data?",
       "layer": "Integration & Processing",
-      "score": 0.395,
+      "score": 0.775,
       "viewpoint": "Application Integration View"
     },
     {
@@ -333,7 +333,7 @@
       "concern_key": "IP2",
       "definition": "Technical constraints. What latency, throughput, or coupling constraints exist?",
       "layer": "Integration & Processing",
-      "score": 0.715,
+      "score": 1.0,
       "viewpoint": "Technical Integration View"
     },
     {
@@ -341,7 +341,7 @@
       "concern_key": "IP3",
       "definition": "Execution semantics. How are requests processed end-to-end?",
       "layer": "Integration & Processing",
-      "score": 0.0,
+      "score": 0.475,
       "viewpoint": "System Processing View"
     },
     {
@@ -357,7 +357,7 @@
       "concern_key": "IP5",
       "definition": "Workflow execution. How do workflows orchestrate services?",
       "layer": "Integration & Processing",
-      "score": 0.0,
+      "score": 0.475,
       "viewpoint": "Process Flow View"
     },
     {
@@ -365,7 +365,7 @@
       "concern_key": "IP6",
       "definition": "Call ordering. What is the interaction sequence?",
       "layer": "Integration & Processing",
-      "score": 0.395,
+      "score": 0.675,
       "viewpoint": "Sequence Interaction View"
     },
     {
@@ -389,7 +389,7 @@
       "concern_key": "OR1",
       "definition": "Incident handling. How are incidents managed operationally?",
       "layer": "Operations & Reliability",
-      "score": 0.395,
+      "score": 0.675,
       "viewpoint": "Operations View"
     },
     {
@@ -413,7 +413,7 @@
       "concern_key": "OR4",
       "definition": "System visibility. How is system health observed?",
       "layer": "Operations & Reliability",
-      "score": 0.395,
+      "score": 0.675,
       "viewpoint": "Monitoring & Observability View"
     },
     {
@@ -429,7 +429,7 @@
       "concern_key": "SCR1",
       "definition": "Control mechanisms. What controls enforce security policy?",
       "layer": "Security, Compliance & Risk",
-      "score": 0.675,
+      "score": 1.0,
       "viewpoint": "Security Control View"
     },
     {
@@ -441,11 +441,11 @@
       "viewpoint": "Identity and Access Control"
     },
     {
-      "classification": "Optional",
+      "classification": "Recommended",
       "concern_key": "SCR2",
       "definition": "Threat analysis. What threats and risks exist?",
       "layer": "Security, Compliance & Risk",
-      "score": 0.0,
+      "score": 0.525,
       "viewpoint": "Threat & Risk Modeling View"
     },
     {
@@ -453,23 +453,23 @@
       "concern_key": "SCR3",
       "definition": "Adversarial traversal. How could an attacker move through the system?",
       "layer": "Security, Compliance & Risk",
-      "score": 0.0,
+      "score": 0.475,
       "viewpoint": "Attack Path View"
     },
     {
-      "classification": "Optional",
+      "classification": "Recommended",
       "concern_key": "SCR4",
       "definition": "Service trust. How do services authenticate each other?",
       "layer": "Security, Compliance & Risk",
-      "score": 0.0,
+      "score": 0.725,
       "viewpoint": "Service Authentication View"
     },
     {
-      "classification": "Optional",
+      "classification": "Recommended",
       "concern_key": "SCR5",
       "definition": "User identity. How are users authenticated?",
       "layer": "Security, Compliance & Risk",
-      "score": 0.0,
+      "score": 0.825,
       "viewpoint": "User Authentication View"
     },
     {
@@ -494,95 +494,139 @@
   "risk_items": [
     {
       "concern_key": "A1",
-      "raw_activation_score": 16.0
+      "raw_activation_score": 3.5
     },
     {
       "concern_key": "A2",
-      "raw_activation_score": 16.0
+      "raw_activation_score": 3.75
     },
     {
       "concern_key": "A3",
-      "raw_activation_score": 16.0
+      "raw_activation_score": 3.25
     },
     {
       "concern_key": "AGD1",
-      "raw_activation_score": 8.0
+      "raw_activation_score": 3.0
     },
     {
       "concern_key": "AGD2",
-      "raw_activation_score": 32.0
+      "raw_activation_score": 5.0
     },
     {
       "concern_key": "AGD3",
-      "raw_activation_score": 8.0
+      "raw_activation_score": 3.0
     },
     {
       "concern_key": "B1",
-      "raw_activation_score": 8.0
+      "raw_activation_score": 3.0
     },
     {
       "concern_key": "B2",
-      "raw_activation_score": 8.0
+      "raw_activation_score": 3.0
     },
     {
       "concern_key": "B5",
-      "raw_activation_score": 8.0
+      "raw_activation_score": 3.0
     },
     {
       "concern_key": "C1",
-      "raw_activation_score": 16.0
+      "raw_activation_score": 3.75
     },
     {
       "concern_key": "C2",
-      "raw_activation_score": 24.0
+      "raw_activation_score": 3.5
     },
     {
       "concern_key": "C3",
-      "raw_activation_score": 24.0
+      "raw_activation_score": 3.75
     },
     {
       "concern_key": "C4",
-      "raw_activation_score": 16.0
+      "raw_activation_score": 3.5
     },
     {
       "concern_key": "C5",
-      "raw_activation_score": 8.0
+      "raw_activation_score": 3.25
     },
     {
       "concern_key": "D7",
-      "raw_activation_score": 27.0
+      "raw_activation_score": 5.0
+    },
+    {
+      "concern_key": "D8",
+      "raw_activation_score": 3.0
     },
     {
       "concern_key": "D9",
-      "raw_activation_score": 27.0
+      "raw_activation_score": 5.0
+    },
+    {
+      "concern_key": "DIN1",
+      "raw_activation_score": 5.0
+    },
+    {
+      "concern_key": "DIN2",
+      "raw_activation_score": 5.0
+    },
+    {
+      "concern_key": "DIN3",
+      "raw_activation_score": 3.0
+    },
+    {
+      "concern_key": "DIN6",
+      "raw_activation_score": 3.0
     },
     {
       "concern_key": "IP1",
-      "raw_activation_score": 8.0
+      "raw_activation_score": 3.5
     },
     {
       "concern_key": "IP2",
-      "raw_activation_score": 16.0
+      "raw_activation_score": 5.0
+    },
+    {
+      "concern_key": "IP3",
+      "raw_activation_score": 2.0
+    },
+    {
+      "concern_key": "IP5",
+      "raw_activation_score": 2.0
     },
     {
       "concern_key": "IP6",
-      "raw_activation_score": 8.0
+      "raw_activation_score": 3.0
     },
     {
       "concern_key": "OR1",
-      "raw_activation_score": 8.0
+      "raw_activation_score": 3.0
     },
     {
       "concern_key": "OR4",
-      "raw_activation_score": 8.0
+      "raw_activation_score": 3.0
     },
     {
       "concern_key": "SCR1",
-      "raw_activation_score": 15.0
+      "raw_activation_score": 5.0
+    },
+    {
+      "concern_key": "SCR2",
+      "raw_activation_score": 2.25
+    },
+    {
+      "concern_key": "SCR3",
+      "raw_activation_score": 2.0
+    },
+    {
+      "concern_key": "SCR4",
+      "raw_activation_score": 3.25
+    },
+    {
+      "concern_key": "SCR5",
+      "raw_activation_score": 3.75
     },
     {
       "concern_key": "SCR7",
-      "raw_activation_score": 27.0
+      "raw_activation_score": 5.0
     }
   ],
   "scenario_id": "case-x",
