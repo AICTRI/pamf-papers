@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local data / private workspace
+data/
+ratings/
+*.xlsx
+!validation/expert-study/expert_rating_form_R3.xlsx
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.log
+
+# Secrets
+.env
+.env.*

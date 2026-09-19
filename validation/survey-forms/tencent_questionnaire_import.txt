@@ -1,0 +1,386 @@
+[必填] 软件架构视点独立评估（中国渠道）
+个人、无资助研究；虚构场景；预计30-45分钟。完成有效评估固定补偿人民币400元。
+匿名参与者编号[单行文本题][必答](请输入研究者私下提供的CN1、CN2或CN3)
+
+当前架构角色[单选题][必答]
+软件架构师
+解决方案架构师
+系统架构师
+企业架构师
+其他
+
+专业架构经验[单选题][必答]
+10-14年
+15-19年
+20年以上
+
+最近两年参与过架构设计或评审[单选题][必答]
+是
+否
+
+参与过跨国或跨境项目[单选题][必答]
+是
+否
+
+相关经验领域[多选题][必答]
+数据
+集成
+安全
+合规
+云
+AI/ML
+其他
+
+此前接触过AVDM、AXISRobo-PAMP或相关论文[单选题][必答]
+否
+是
+
+我已阅读知情同意书并自愿独立参加[单选题][必答]
+是，我同意
+否，我不同意
+
+===分页===
+请确认已阅读场景性质[单选题][必答](Case X是为本研究构造的虚构基准场景，不代表任何真实公司或项目。)
+已阅读
+
+请确认已阅读系统范围[单选题][必答](某组织计划建设新的定制数据集成平台，连接6-20个外部业务系统，并修改21-50个现有应用。)
+已阅读
+
+请确认已阅读部署与技术条件[单选题][必答](部署包括4-10个数据中心和多云单区域环境，使用6-10类技术栈及3-5类集成技术。)
+已阅读
+
+请确认已阅读数据与合规条件[单选题][必答](涉及跨境数据流、超过一百万条个人信息、超过十万条敏感个人信息及政府安全分类数据；不涉及非标准认证或授权。)
+已阅读
+
+请确认已理解评级定义[单选题][必答](Mandatory：缺失会留下不可接受的决策、合规或运行风险暴露。Recommended：有显著决策价值，但给出理由后可以延期。Optional：当前场景下预期决策价值较低。)
+已理解
+
+===分页===
+app_domain_boundary - Application Domain Boundary[单选题][必答](Clarify service boundaries and domain ownership.)
+Mandatory
+Recommended
+Optional
+
+app_resilience_pattern - Application Resilience Pattern[单选题][必答](Define fallback, retry, and graceful degradation strategy.)
+Mandatory
+Recommended
+Optional
+
+===分页===
+AGD1 - Architecture Decision View[单选题][必答](Decision rationale. What architectural decisions were made and why?)
+Mandatory
+Recommended
+Optional
+
+AGD2 - Evolution & Change Impact View[单选题][必答](Change analysis. What is impacted by a proposed change?)
+Mandatory
+Recommended
+Optional
+
+AGD3 - Quality Attribute Trade-off View[单选题][必答](Trade-off reasoning. How are quality attributes balanced?)
+Mandatory
+Recommended
+Optional
+
+AGD4 - Cost & Value View[单选题][必答](Economic impact. What are the costs and expected value?)
+Mandatory
+Recommended
+Optional
+
+AGD5 - Team-Architecture Alignment View[单选题][必答](Organizational fit. Are teams aligned with the architecture?)
+Mandatory
+Recommended
+Optional
+
+===分页===
+B1 - Business Capability View[单选题][必答](Capability structure. What business capabilities exist and which are critical?)
+Mandatory
+Recommended
+Optional
+
+B2 - Business Process View[单选题][必答](End-to-end workflows. How do business processes execute across domains?)
+Mandatory
+Recommended
+Optional
+
+B3 - User / Actor View[单选题][必答](Users and roles. Who interacts with the system and in what roles?)
+Mandatory
+Recommended
+Optional
+
+B4 - Organizational Ownership View[单选题][必答](Accountability and governance. Who owns systems, data, and decisions?)
+Mandatory
+Recommended
+Optional
+
+B5 - Interaction & Influence View[单选题][必答](Cross-domain influence. How do organizational units influence each other?)
+Mandatory
+Recommended
+Optional
+
+===分页===
+C1 - Container View[单选题][必答](Runtime containers. What are the main runtime units?)
+Mandatory
+Recommended
+Optional
+
+C2 - Component View[单选题][必答](Internal modularity. How are components structured within containers?)
+Mandatory
+Recommended
+Optional
+
+C3 - Technical Service View[单选题][必答](Service responsibility. What capability boundary does each service own?)
+Mandatory
+Recommended
+Optional
+
+C4 - Technical Stack View[单选题][必答](Technology choices. Which languages, frameworks, and platforms are used?)
+Mandatory
+Recommended
+Optional
+
+C5 - Communication & Protocol View[单选题][必答](Interaction mechanisms. How do components communicate?)
+Mandatory
+Recommended
+Optional
+
+===分页===
+A1 - System Context View[单选题][必答](System boundary. What is inside and outside the system?)
+Mandatory
+Recommended
+Optional
+
+A2 - Application Functional View[单选题][必答](Functional decomposition. How are application functions grouped?)
+Mandatory
+Recommended
+Optional
+
+A3 - Application Interaction View[单选题][必答](Application collaboration. How do applications interact and depend on each other?)
+Mandatory
+Recommended
+Optional
+
+A4 - User Role-Application Mapping View[单选题][必答](Access responsibility. Which roles can access which applications?)
+Mandatory
+Recommended
+Optional
+
+===分页===
+D1 - Business Data Flow View[单选题][必答](Business data movement. How does data support business processes?)
+Mandatory
+Recommended
+Optional
+
+D10 - Logical Data Model View[单选题][必答](Logical schema. How are entities logically related?)
+Mandatory
+Recommended
+Optional
+
+D11 - Physical Data Model View[单选题][必答](Physical schema. How is data physically implemented?)
+Mandatory
+Recommended
+Optional
+
+D2 - Data Derivation & Evolution View[单选题][必答](Data transformation. How is data derived and transformed?)
+Mandatory
+Recommended
+Optional
+
+D3 - Data Lineage View[单选题][必答](Traceability. Where does data originate and propagate?)
+Mandatory
+Recommended
+Optional
+
+D4 - Data Asset View[单选题][必答](Ownership and value. What data assets exist and who owns them?)
+Mandatory
+Recommended
+Optional
+
+D5 - Conceptual Data Entity View[单选题][必答](Business entities. What core business entities exist?)
+Mandatory
+Recommended
+Optional
+
+D6 - Data Quality View[单选题][必答](Quality assurance. Is data accurate, complete, and timely?)
+Mandatory
+Recommended
+Optional
+
+D7 - Data Compliance Flow View[单选题][必答](Regulatory paths. Does data usage comply with regulations?)
+Mandatory
+Recommended
+Optional
+
+D8 - Data Pipeline View[单选题][必答](Technical pipelines. How is data processed technically?)
+Mandatory
+Recommended
+Optional
+
+D9 - Data Sovereignty View[单选题][必答](Residency constraints. Where is data stored and restricted?)
+Mandatory
+Recommended
+Optional
+
+===分页===
+DIN1 - Application Deployment Location View[单选题][必答](Deployment topology. Where are applications deployed?)
+Mandatory
+Recommended
+Optional
+
+DIN2 - Network Topology View[单选题][必答](Network segmentation. How is the network structured?)
+Mandatory
+Recommended
+Optional
+
+DIN3 - Infrastructure Composition View[单选题][必答](Infrastructure layout. What infrastructure components exist?)
+Mandatory
+Recommended
+Optional
+
+DIN4 - Resource & Capacity View[单选题][必答](Scaling and capacity. How are resources allocated and scaled?)
+Mandatory
+Recommended
+Optional
+
+===分页===
+governance_control_matrix - Control Traceability Matrix[单选题][必答](Trace controls to policies, systems, and responsible roles.)
+Mandatory
+Recommended
+Optional
+
+governance_decision_log - Architecture Decision Record[单选题][必答](Document decision rationale and approval trail.)
+Mandatory
+Recommended
+Optional
+
+===分页===
+infra_recovery - Disaster Recovery[单选题][必答](Define backup, restore, and regional failover strategy.)
+Mandatory
+Recommended
+Optional
+
+infra_scalability - Scalability and Capacity[单选题][必答](Plan horizontal and vertical scaling with bottleneck controls.)
+Mandatory
+Recommended
+Optional
+
+===分页===
+integration_contract - Interface Contract Stability[单选题][必答](Specify APIs, versioning, and compatibility guarantees.)
+Mandatory
+Recommended
+Optional
+
+integration_dependency_map - Dependency and Interaction Map[单选题][必答](Capture cross-system dependencies and communication paths.)
+Mandatory
+Recommended
+Optional
+
+===分页===
+IP1 - Application Integration View[单选题][必答](Business-level integration. How do applications exchange data?)
+Mandatory
+Recommended
+Optional
+
+IP2 - Technical Integration View[单选题][必答](Technical constraints. What latency, throughput, or coupling constraints exist?)
+Mandatory
+Recommended
+Optional
+
+IP3 - System Processing View[单选题][必答](Execution semantics. How are requests processed end-to-end?)
+Mandatory
+Recommended
+Optional
+
+IP4 - Activity View[单选题][必答](Action paths. What actions and decisions occur during execution?)
+Mandatory
+Recommended
+Optional
+
+IP5 - Process Flow View[单选题][必答](Workflow execution. How do workflows orchestrate services?)
+Mandatory
+Recommended
+Optional
+
+IP6 - Sequence Interaction View[单选题][必答](Call ordering. What is the interaction sequence?)
+Mandatory
+Recommended
+Optional
+
+===分页===
+OR1 - Operations View[单选题][必答](Incident handling. How are incidents managed operationally?)
+Mandatory
+Recommended
+Optional
+
+OR2 - Resilience & DR View[单选题][必答](Recovery strategy. What are RPO/RTO objectives?)
+Mandatory
+Recommended
+Optional
+
+OR3 - Reliability & SLO View[单选题][必答](Reliability targets. What service levels are required?)
+Mandatory
+Recommended
+Optional
+
+OR4 - Monitoring & Observability View[单选题][必答](System visibility. How is system health observed?)
+Mandatory
+Recommended
+Optional
+
+OR5 - Operational Feedback View[单选题][必答](Learning loops. How do operations inform evolution?)
+Mandatory
+Recommended
+Optional
+
+===分页===
+security_identity_access - Identity and Access Control[单选题][必答](Map authentication, authorization, and least privilege controls.)
+Mandatory
+Recommended
+Optional
+
+===分页===
+SCR1 - Security Control View[单选题][必答](Control mechanisms. What controls enforce security policy?)
+Mandatory
+Recommended
+Optional
+
+SCR2 - Threat & Risk Modeling View[单选题][必答](Threat analysis. What threats and risks exist?)
+Mandatory
+Recommended
+Optional
+
+SCR3 - Attack Path View[单选题][必答](Adversarial traversal. How could an attacker move through the system?)
+Mandatory
+Recommended
+Optional
+
+SCR4 - Service Authentication View[单选题][必答](Service trust. How do services authenticate each other?)
+Mandatory
+Recommended
+Optional
+
+SCR5 - User Authentication View[单选题][必答](User identity. How are users authenticated?)
+Mandatory
+Recommended
+Optional
+
+SCR6 - Authorization & Access Control View[单选题][必答](Access enforcement. Who is authorized to do what?)
+Mandatory
+Recommended
+Optional
+
+SCR7 - Compliance Boundary View[单选题][必答](Regulatory scope. Which regulations apply and where?)
+Mandatory
+Recommended
+Optional
+
+===分页===
+补充理由或信息不足说明[多行文本题][选答](仅在需要时填写。请按item_id：理由或缺失信息逐行说明；如所有判断都明确可留空。请勿填写真实雇主、客户或项目信息。)
+
+独立完成确认[单选题][必答]
+是，我未查看模型、论文、预印本、代码或其他参与者答案
+否
+
+保密信息确认[单选题][必答]
+是，我未填写真实雇主、客户、系统或项目的保密信息
+否

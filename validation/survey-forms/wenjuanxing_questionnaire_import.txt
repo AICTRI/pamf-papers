@@ -1,0 +1,404 @@
+软件架构视点独立评估（中国渠道）[段落说明]
+个人、无资助研究；虚构场景；预计30-45分钟；完成有效评估固定补偿人民币400元。
+
+1. 匿名参与者编号：
+
+2. 当前架构角色[单选题]
+软件架构师
+解决方案架构师
+系统架构师
+企业架构师
+其他
+
+3. 专业架构经验[单选题]
+10-14年
+15-19年
+20年以上
+
+4. 最近两年参与过架构设计或评审[单选题]
+是
+否
+
+5. 参与过跨国或跨境项目[单选题]
+是
+否
+
+6. 相关经验领域[多选题]
+数据
+集成
+安全
+合规
+云
+AI/ML
+其他
+
+7. 此前接触过AVDM、AXISRobo-PAMP或相关论文[单选题]
+否
+是
+
+8. 我已阅读知情同意书并自愿独立参加[单选题]
+是，我同意
+否，我不同意
+
+Case X：虚构跨境数据平台[段落说明]
+这是为研究构造的虚构基准场景，不代表任何真实公司或项目。某组织计划建设一个新的定制数据集成平台。平台将连接6-20个外部业务系统，并涉及21-50个现有应用的修改；部署范围包括4-10个数据中心以及多云单区域环境；技术组合包含6-10类技术栈和3-5类集成技术；涉及跨境数据流、超过一百万条个人信息记录、超过十万条敏感个人信息记录，以及政府/安全分类数据；不涉及非标准身份认证或非标准授权机制。
+
+评级定义[段落说明]
+Mandatory：缺失会留下不可接受的决策、合规或运行风险暴露。Recommended：有显著决策价值，但给出理由后可以延期。Optional：当前场景下预期决策价值较低。
+
+Application[段落说明]
+请为本层每个viewpoint选择一个等级。
+
+9. app_domain_boundary - Application Domain Boundary — Clarify service boundaries and domain ownership.[单选题]
+Mandatory
+Recommended
+Optional
+
+10. app_resilience_pattern - Application Resilience Pattern — Define fallback, retry, and graceful degradation strategy.[单选题]
+Mandatory
+Recommended
+Optional
+
+Architecture Governance & Decision[段落说明]
+请为本层每个viewpoint选择一个等级。
+
+11. AGD1 - Architecture Decision View — Decision rationale. What architectural decisions were made and why?[单选题]
+Mandatory
+Recommended
+Optional
+
+12. AGD2 - Evolution & Change Impact View — Change analysis. What is impacted by a proposed change?[单选题]
+Mandatory
+Recommended
+Optional
+
+13. AGD3 - Quality Attribute Trade-off View — Trade-off reasoning. How are quality attributes balanced?[单选题]
+Mandatory
+Recommended
+Optional
+
+14. AGD4 - Cost & Value View — Economic impact. What are the costs and expected value?[单选题]
+Mandatory
+Recommended
+Optional
+
+15. AGD5 - Team-Architecture Alignment View — Organizational fit. Are teams aligned with the architecture?[单选题]
+Mandatory
+Recommended
+Optional
+
+Business / Organization[段落说明]
+请为本层每个viewpoint选择一个等级。
+
+16. B1 - Business Capability View — Capability structure. What business capabilities exist and which are critical?[单选题]
+Mandatory
+Recommended
+Optional
+
+17. B2 - Business Process View — End-to-end workflows. How do business processes execute across domains?[单选题]
+Mandatory
+Recommended
+Optional
+
+18. B3 - User / Actor View — Users and roles. Who interacts with the system and in what roles?[单选题]
+Mandatory
+Recommended
+Optional
+
+19. B4 - Organizational Ownership View — Accountability and governance. Who owns systems, data, and decisions?[单选题]
+Mandatory
+Recommended
+Optional
+
+20. B5 - Interaction & Influence View — Cross-domain influence. How do organizational units influence each other?[单选题]
+Mandatory
+Recommended
+Optional
+
+Container / Component / Technical Service[段落说明]
+请为本层每个viewpoint选择一个等级。
+
+21. C1 - Container View — Runtime containers. What are the main runtime units?[单选题]
+Mandatory
+Recommended
+Optional
+
+22. C2 - Component View — Internal modularity. How are components structured within containers?[单选题]
+Mandatory
+Recommended
+Optional
+
+23. C3 - Technical Service View — Service responsibility. What capability boundary does each service own?[单选题]
+Mandatory
+Recommended
+Optional
+
+24. C4 - Technical Stack View — Technology choices. Which languages, frameworks, and platforms are used?[单选题]
+Mandatory
+Recommended
+Optional
+
+25. C5 - Communication & Protocol View — Interaction mechanisms. How do components communicate?[单选题]
+Mandatory
+Recommended
+Optional
+
+Context & Application[段落说明]
+请为本层每个viewpoint选择一个等级。
+
+26. A1 - System Context View — System boundary. What is inside and outside the system?[单选题]
+Mandatory
+Recommended
+Optional
+
+27. A2 - Application Functional View — Functional decomposition. How are application functions grouped?[单选题]
+Mandatory
+Recommended
+Optional
+
+28. A3 - Application Interaction View — Application collaboration. How do applications interact and depend on each other?[单选题]
+Mandatory
+Recommended
+Optional
+
+29. A4 - User Role-Application Mapping View — Access responsibility. Which roles can access which applications?[单选题]
+Mandatory
+Recommended
+Optional
+
+Data Architecture[段落说明]
+请为本层每个viewpoint选择一个等级。
+
+30. D1 - Business Data Flow View — Business data movement. How does data support business processes?[单选题]
+Mandatory
+Recommended
+Optional
+
+31. D10 - Logical Data Model View — Logical schema. How are entities logically related?[单选题]
+Mandatory
+Recommended
+Optional
+
+32. D11 - Physical Data Model View — Physical schema. How is data physically implemented?[单选题]
+Mandatory
+Recommended
+Optional
+
+33. D2 - Data Derivation & Evolution View — Data transformation. How is data derived and transformed?[单选题]
+Mandatory
+Recommended
+Optional
+
+34. D3 - Data Lineage View — Traceability. Where does data originate and propagate?[单选题]
+Mandatory
+Recommended
+Optional
+
+35. D4 - Data Asset View — Ownership and value. What data assets exist and who owns them?[单选题]
+Mandatory
+Recommended
+Optional
+
+36. D5 - Conceptual Data Entity View — Business entities. What core business entities exist?[单选题]
+Mandatory
+Recommended
+Optional
+
+37. D6 - Data Quality View — Quality assurance. Is data accurate, complete, and timely?[单选题]
+Mandatory
+Recommended
+Optional
+
+38. D7 - Data Compliance Flow View — Regulatory paths. Does data usage comply with regulations?[单选题]
+Mandatory
+Recommended
+Optional
+
+39. D8 - Data Pipeline View — Technical pipelines. How is data processed technically?[单选题]
+Mandatory
+Recommended
+Optional
+
+40. D9 - Data Sovereignty View — Residency constraints. Where is data stored and restricted?[单选题]
+Mandatory
+Recommended
+Optional
+
+Deployment / Infrastructure / Networking[段落说明]
+请为本层每个viewpoint选择一个等级。
+
+41. DIN1 - Application Deployment Location View — Deployment topology. Where are applications deployed?[单选题]
+Mandatory
+Recommended
+Optional
+
+42. DIN2 - Network Topology View — Network segmentation. How is the network structured?[单选题]
+Mandatory
+Recommended
+Optional
+
+43. DIN3 - Infrastructure Composition View — Infrastructure layout. What infrastructure components exist?[单选题]
+Mandatory
+Recommended
+Optional
+
+44. DIN4 - Resource & Capacity View — Scaling and capacity. How are resources allocated and scaled?[单选题]
+Mandatory
+Recommended
+Optional
+
+Governance[段落说明]
+请为本层每个viewpoint选择一个等级。
+
+45. governance_control_matrix - Control Traceability Matrix — Trace controls to policies, systems, and responsible roles.[单选题]
+Mandatory
+Recommended
+Optional
+
+46. governance_decision_log - Architecture Decision Record — Document decision rationale and approval trail.[单选题]
+Mandatory
+Recommended
+Optional
+
+Infrastructure[段落说明]
+请为本层每个viewpoint选择一个等级。
+
+47. infra_recovery - Disaster Recovery — Define backup, restore, and regional failover strategy.[单选题]
+Mandatory
+Recommended
+Optional
+
+48. infra_scalability - Scalability and Capacity — Plan horizontal and vertical scaling with bottleneck controls.[单选题]
+Mandatory
+Recommended
+Optional
+
+Integration[段落说明]
+请为本层每个viewpoint选择一个等级。
+
+49. integration_contract - Interface Contract Stability — Specify APIs, versioning, and compatibility guarantees.[单选题]
+Mandatory
+Recommended
+Optional
+
+50. integration_dependency_map - Dependency and Interaction Map — Capture cross-system dependencies and communication paths.[单选题]
+Mandatory
+Recommended
+Optional
+
+Integration & Processing[段落说明]
+请为本层每个viewpoint选择一个等级。
+
+51. IP1 - Application Integration View — Business-level integration. How do applications exchange data?[单选题]
+Mandatory
+Recommended
+Optional
+
+52. IP2 - Technical Integration View — Technical constraints. What latency, throughput, or coupling constraints exist?[单选题]
+Mandatory
+Recommended
+Optional
+
+53. IP3 - System Processing View — Execution semantics. How are requests processed end-to-end?[单选题]
+Mandatory
+Recommended
+Optional
+
+54. IP4 - Activity View — Action paths. What actions and decisions occur during execution?[单选题]
+Mandatory
+Recommended
+Optional
+
+55. IP5 - Process Flow View — Workflow execution. How do workflows orchestrate services?[单选题]
+Mandatory
+Recommended
+Optional
+
+56. IP6 - Sequence Interaction View — Call ordering. What is the interaction sequence?[单选题]
+Mandatory
+Recommended
+Optional
+
+Operations & Reliability[段落说明]
+请为本层每个viewpoint选择一个等级。
+
+57. OR1 - Operations View — Incident handling. How are incidents managed operationally?[单选题]
+Mandatory
+Recommended
+Optional
+
+58. OR2 - Resilience & DR View — Recovery strategy. What are RPO/RTO objectives?[单选题]
+Mandatory
+Recommended
+Optional
+
+59. OR3 - Reliability & SLO View — Reliability targets. What service levels are required?[单选题]
+Mandatory
+Recommended
+Optional
+
+60. OR4 - Monitoring & Observability View — System visibility. How is system health observed?[单选题]
+Mandatory
+Recommended
+Optional
+
+61. OR5 - Operational Feedback View — Learning loops. How do operations inform evolution?[单选题]
+Mandatory
+Recommended
+Optional
+
+Security[段落说明]
+请为本层每个viewpoint选择一个等级。
+
+62. security_identity_access - Identity and Access Control — Map authentication, authorization, and least privilege controls.[单选题]
+Mandatory
+Recommended
+Optional
+
+Security, Compliance & Risk[段落说明]
+请为本层每个viewpoint选择一个等级。
+
+63. SCR1 - Security Control View — Control mechanisms. What controls enforce security policy?[单选题]
+Mandatory
+Recommended
+Optional
+
+64. SCR2 - Threat & Risk Modeling View — Threat analysis. What threats and risks exist?[单选题]
+Mandatory
+Recommended
+Optional
+
+65. SCR3 - Attack Path View — Adversarial traversal. How could an attacker move through the system?[单选题]
+Mandatory
+Recommended
+Optional
+
+66. SCR4 - Service Authentication View — Service trust. How do services authenticate each other?[单选题]
+Mandatory
+Recommended
+Optional
+
+67. SCR5 - User Authentication View — User identity. How are users authenticated?[单选题]
+Mandatory
+Recommended
+Optional
+
+68. SCR6 - Authorization & Access Control View — Access enforcement. Who is authorized to do what?[单选题]
+Mandatory
+Recommended
+Optional
+
+69. SCR7 - Compliance Boundary View — Regulatory scope. Which regulations apply and where?[单选题]
+Mandatory
+Recommended
+Optional
+
+70. 补充理由或信息不足说明（仅在需要时按item_id：理由或缺失信息逐行填写；如所有判断都明确可留空；不得包含真实项目信息）：
+
+71. 独立完成确认[单选题]
+是，我未查看模型、论文、预印本、代码或其他参与者答案
+否
+
+72. 保密信息确认[单选题]
+是，我未填写真实雇主、客户、系统或项目的保密信息
+否

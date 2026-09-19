@@ -1,0 +1,62 @@
+﻿item_id,layer,viewpoint_en,definition_en,option_1,option_2,option_3,required
+app_domain_boundary,Application,Application Domain Boundary,Clarify service boundaries and domain ownership.,Mandatory,Recommended,Optional,Yes
+app_resilience_pattern,Application,Application Resilience Pattern,"Define fallback, retry, and graceful degradation strategy.",Mandatory,Recommended,Optional,Yes
+AGD1,Architecture Governance & Decision,Architecture Decision View,Decision rationale. What architectural decisions were made and why?,Mandatory,Recommended,Optional,Yes
+AGD2,Architecture Governance & Decision,Evolution & Change Impact View,Change analysis. What is impacted by a proposed change?,Mandatory,Recommended,Optional,Yes
+AGD3,Architecture Governance & Decision,Quality Attribute Trade-off View,Trade-off reasoning. How are quality attributes balanced?,Mandatory,Recommended,Optional,Yes
+AGD4,Architecture Governance & Decision,Cost & Value View,Economic impact. What are the costs and expected value?,Mandatory,Recommended,Optional,Yes
+AGD5,Architecture Governance & Decision,Team-Architecture Alignment View,Organizational fit. Are teams aligned with the architecture?,Mandatory,Recommended,Optional,Yes
+B1,Business / Organization,Business Capability View,Capability structure. What business capabilities exist and which are critical?,Mandatory,Recommended,Optional,Yes
+B2,Business / Organization,Business Process View,End-to-end workflows. How do business processes execute across domains?,Mandatory,Recommended,Optional,Yes
+B3,Business / Organization,User / Actor View,Users and roles. Who interacts with the system and in what roles?,Mandatory,Recommended,Optional,Yes
+B4,Business / Organization,Organizational Ownership View,"Accountability and governance. Who owns systems, data, and decisions?",Mandatory,Recommended,Optional,Yes
+B5,Business / Organization,Interaction & Influence View,Cross-domain influence. How do organizational units influence each other?,Mandatory,Recommended,Optional,Yes
+C1,Container / Component / Technical Service,Container View,Runtime containers. What are the main runtime units?,Mandatory,Recommended,Optional,Yes
+C2,Container / Component / Technical Service,Component View,Internal modularity. How are components structured within containers?,Mandatory,Recommended,Optional,Yes
+C3,Container / Component / Technical Service,Technical Service View,Service responsibility. What capability boundary does each service own?,Mandatory,Recommended,Optional,Yes
+C4,Container / Component / Technical Service,Technical Stack View,"Technology choices. Which languages, frameworks, and platforms are used?",Mandatory,Recommended,Optional,Yes
+C5,Container / Component / Technical Service,Communication & Protocol View,Interaction mechanisms. How do components communicate?,Mandatory,Recommended,Optional,Yes
+A1,Context & Application,System Context View,System boundary. What is inside and outside the system?,Mandatory,Recommended,Optional,Yes
+A2,Context & Application,Application Functional View,Functional decomposition. How are application functions grouped?,Mandatory,Recommended,Optional,Yes
+A3,Context & Application,Application Interaction View,Application collaboration. How do applications interact and depend on each other?,Mandatory,Recommended,Optional,Yes
+A4,Context & Application,User Role-Application Mapping View,Access responsibility. Which roles can access which applications?,Mandatory,Recommended,Optional,Yes
+D1,Data Architecture,Business Data Flow View,Business data movement. How does data support business processes?,Mandatory,Recommended,Optional,Yes
+D10,Data Architecture,Logical Data Model View,Logical schema. How are entities logically related?,Mandatory,Recommended,Optional,Yes
+D11,Data Architecture,Physical Data Model View,Physical schema. How is data physically implemented?,Mandatory,Recommended,Optional,Yes
+D2,Data Architecture,Data Derivation & Evolution View,Data transformation. How is data derived and transformed?,Mandatory,Recommended,Optional,Yes
+D3,Data Architecture,Data Lineage View,Traceability. Where does data originate and propagate?,Mandatory,Recommended,Optional,Yes
+D4,Data Architecture,Data Asset View,Ownership and value. What data assets exist and who owns them?,Mandatory,Recommended,Optional,Yes
+D5,Data Architecture,Conceptual Data Entity View,Business entities. What core business entities exist?,Mandatory,Recommended,Optional,Yes
+D6,Data Architecture,Data Quality View,"Quality assurance. Is data accurate, complete, and timely?",Mandatory,Recommended,Optional,Yes
+D7,Data Architecture,Data Compliance Flow View,Regulatory paths. Does data usage comply with regulations?,Mandatory,Recommended,Optional,Yes
+D8,Data Architecture,Data Pipeline View,Technical pipelines. How is data processed technically?,Mandatory,Recommended,Optional,Yes
+D9,Data Architecture,Data Sovereignty View,Residency constraints. Where is data stored and restricted?,Mandatory,Recommended,Optional,Yes
+DIN1,Deployment / Infrastructure / Networking,Application Deployment Location View,Deployment topology. Where are applications deployed?,Mandatory,Recommended,Optional,Yes
+DIN2,Deployment / Infrastructure / Networking,Network Topology View,Network segmentation. How is the network structured?,Mandatory,Recommended,Optional,Yes
+DIN3,Deployment / Infrastructure / Networking,Infrastructure Composition View,Infrastructure layout. What infrastructure components exist?,Mandatory,Recommended,Optional,Yes
+DIN4,Deployment / Infrastructure / Networking,Resource & Capacity View,Scaling and capacity. How are resources allocated and scaled?,Mandatory,Recommended,Optional,Yes
+governance_control_matrix,Governance,Control Traceability Matrix,"Trace controls to policies, systems, and responsible roles.",Mandatory,Recommended,Optional,Yes
+governance_decision_log,Governance,Architecture Decision Record,Document decision rationale and approval trail.,Mandatory,Recommended,Optional,Yes
+infra_recovery,Infrastructure,Disaster Recovery,"Define backup, restore, and regional failover strategy.",Mandatory,Recommended,Optional,Yes
+infra_scalability,Infrastructure,Scalability and Capacity,Plan horizontal and vertical scaling with bottleneck controls.,Mandatory,Recommended,Optional,Yes
+integration_contract,Integration,Interface Contract Stability,"Specify APIs, versioning, and compatibility guarantees.",Mandatory,Recommended,Optional,Yes
+integration_dependency_map,Integration,Dependency and Interaction Map,Capture cross-system dependencies and communication paths.,Mandatory,Recommended,Optional,Yes
+IP1,Integration & Processing,Application Integration View,Business-level integration. How do applications exchange data?,Mandatory,Recommended,Optional,Yes
+IP2,Integration & Processing,Technical Integration View,"Technical constraints. What latency, throughput, or coupling constraints exist?",Mandatory,Recommended,Optional,Yes
+IP3,Integration & Processing,System Processing View,Execution semantics. How are requests processed end-to-end?,Mandatory,Recommended,Optional,Yes
+IP4,Integration & Processing,Activity View,Action paths. What actions and decisions occur during execution?,Mandatory,Recommended,Optional,Yes
+IP5,Integration & Processing,Process Flow View,Workflow execution. How do workflows orchestrate services?,Mandatory,Recommended,Optional,Yes
+IP6,Integration & Processing,Sequence Interaction View,Call ordering. What is the interaction sequence?,Mandatory,Recommended,Optional,Yes
+OR1,Operations & Reliability,Operations View,Incident handling. How are incidents managed operationally?,Mandatory,Recommended,Optional,Yes
+OR2,Operations & Reliability,Resilience & DR View,Recovery strategy. What are RPO/RTO objectives?,Mandatory,Recommended,Optional,Yes
+OR3,Operations & Reliability,Reliability & SLO View,Reliability targets. What service levels are required?,Mandatory,Recommended,Optional,Yes
+OR4,Operations & Reliability,Monitoring & Observability View,System visibility. How is system health observed?,Mandatory,Recommended,Optional,Yes
+OR5,Operations & Reliability,Operational Feedback View,Learning loops. How do operations inform evolution?,Mandatory,Recommended,Optional,Yes
+security_identity_access,Security,Identity and Access Control,"Map authentication, authorization, and least privilege controls.",Mandatory,Recommended,Optional,Yes
+SCR1,"Security, Compliance & Risk",Security Control View,Control mechanisms. What controls enforce security policy?,Mandatory,Recommended,Optional,Yes
+SCR2,"Security, Compliance & Risk",Threat & Risk Modeling View,Threat analysis. What threats and risks exist?,Mandatory,Recommended,Optional,Yes
+SCR3,"Security, Compliance & Risk",Attack Path View,Adversarial traversal. How could an attacker move through the system?,Mandatory,Recommended,Optional,Yes
+SCR4,"Security, Compliance & Risk",Service Authentication View,Service trust. How do services authenticate each other?,Mandatory,Recommended,Optional,Yes
+SCR5,"Security, Compliance & Risk",User Authentication View,User identity. How are users authenticated?,Mandatory,Recommended,Optional,Yes
+SCR6,"Security, Compliance & Risk",Authorization & Access Control View,Access enforcement. Who is authorized to do what?,Mandatory,Recommended,Optional,Yes
+SCR7,"Security, Compliance & Risk",Compliance Boundary View,Regulatory scope. Which regulations apply and where?,Mandatory,Recommended,Optional,Yes
