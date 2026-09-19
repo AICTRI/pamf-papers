@@ -16,19 +16,13 @@ from _paths import PUBLIC, RESULTS
 CLASSIFICATIONS = ("Mandatory", "Recommended", "Optional")
 
 
-def risk_levels(raw_score: float) -> tuple[int, int]:
-    bounded = min(25.0, max(1.0, raw_score))
-    severity = min(5, max(1, math.ceil(math.sqrt(bounded))))
-    likelihood = min(5, max(1, math.ceil(bounded / severity)))
-    return severity, likelihood
-
-
 def concern_score(raw_score: float, complexity: float, weight_scale: float = 1.0) -> float:
+    # Continuous, floor-zero scoring: unactivated concerns score 0.0; activated
+    # ones score min(25, raw * scale) / 25 plus the complexity boost. This
+    # replaces the coarse ceil(sqrt()) risk-level transform.
     if raw_score <= 0:
-        base = 0.0
-    else:
-        severity, likelihood = risk_levels(raw_score * weight_scale)
-        base = (severity / 5.0) * (likelihood / 5.0)
+        return 0.0
+    base = min(25.0, raw_score * weight_scale) / 25.0
     return min(1.0, round(base + 0.15 * complexity, 4))
 
 

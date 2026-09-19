@@ -29,7 +29,7 @@
       "concern_key": "A4",
       "definition": "Access responsibility. Which roles can access which applications?",
       "layer": "Context & Application",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "User Role-Application Mapping View"
     },
     {
@@ -37,7 +37,7 @@
       "concern_key": "A5",
       "definition": "Clarify service boundaries and domain ownership.",
       "layer": "Context & Application",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "Application Domain Boundary"
     },
     {
@@ -45,7 +45,7 @@
       "concern_key": "A6",
       "definition": "Define fallback, retry, and graceful degradation strategy.",
       "layer": "Context & Application",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "Application Resilience"
     },
     {
@@ -53,7 +53,7 @@
       "concern_key": "AGD1",
       "definition": "Decision rationale. What architectural decisions were made and why?",
       "layer": "Architecture Governance & Decision",
-      "score": 0.435,
+      "score": 0.395,
       "viewpoint": "Architecture Decision View"
     },
     {
@@ -69,7 +69,7 @@
       "concern_key": "AGD3",
       "definition": "Trade-off reasoning. How are quality attributes balanced?",
       "layer": "Architecture Governance & Decision",
-      "score": 0.435,
+      "score": 0.395,
       "viewpoint": "Quality Attribute Trade-off View"
     },
     {
@@ -77,7 +77,7 @@
       "concern_key": "AGD4",
       "definition": "Economic impact. What are the costs and expected value?",
       "layer": "Architecture Governance & Decision",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "Cost & Value View"
     },
     {
@@ -85,7 +85,7 @@
       "concern_key": "AGD5",
       "definition": "Organizational fit. Are teams aligned with the architecture?",
       "layer": "Architecture Governance & Decision",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "Team-Architecture Alignment View"
     },
     {
@@ -93,7 +93,7 @@
       "concern_key": "AGD6",
       "definition": "Trace controls to policies, systems, and responsible roles.",
       "layer": "Architecture Governance & Decision",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "Control Traceability Matrix"
     },
     {
@@ -101,7 +101,7 @@
       "concern_key": "AGD7",
       "definition": "Document decision rationale and approval trail.",
       "layer": "Architecture Governance & Decision",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "Architecture Decision Record"
     },
     {
@@ -109,7 +109,7 @@
       "concern_key": "B1",
       "definition": "Capability structure. What business capabilities exist and which are critical?",
       "layer": "Business / Organization",
-      "score": 0.435,
+      "score": 0.395,
       "viewpoint": "Business Capability View"
     },
     {
@@ -117,7 +117,7 @@
       "concern_key": "B2",
       "definition": "End-to-end workflows. How do business processes execute across domains?",
       "layer": "Business / Organization",
-      "score": 0.435,
+      "score": 0.395,
       "viewpoint": "Business Process View"
     },
     {
@@ -125,7 +125,7 @@
       "concern_key": "B3",
       "definition": "Users and roles. Who interacts with the system and in what roles?",
       "layer": "Business / Organization",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "User / Actor View"
     },
     {
@@ -133,7 +133,7 @@
       "concern_key": "B4",
       "definition": "Accountability and governance. Who owns systems, data, and decisions?",
       "layer": "Business / Organization",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "Organizational Ownership View"
     },
     {
@@ -141,7 +141,7 @@
       "concern_key": "B5",
       "definition": "Cross-domain influence. How do organizational units influence each other?",
       "layer": "Business / Organization",
-      "score": 0.435,
+      "score": 0.395,
       "viewpoint": "Interaction & Influence View"
     },
     {
@@ -181,7 +181,7 @@
       "concern_key": "C5",
       "definition": "Interaction mechanisms. How do components communicate?",
       "layer": "Container / Component / Technical Service",
-      "score": 0.435,
+      "score": 0.395,
       "viewpoint": "Communication & Protocol View"
     },
     {
@@ -189,7 +189,7 @@
       "concern_key": "D1",
       "definition": "Business data movement. How does data support business processes?",
       "layer": "Data Architecture",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "Business Data Flow View"
     },
     {
@@ -197,7 +197,7 @@
       "concern_key": "D10",
       "definition": "Logical schema. How are entities logically related?",
       "layer": "Data Architecture",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "Logical Data Model View"
     },
     {
@@ -205,7 +205,7 @@
       "concern_key": "D11",
       "definition": "Physical schema. How is data physically implemented?",
       "layer": "Data Architecture",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "Physical Data Model View"
     },
     {
@@ -213,7 +213,7 @@
       "concern_key": "D2",
       "definition": "Data transformation. How is data derived and transformed?",
       "layer": "Data Architecture",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "Data Derivation & Evolution View"
     },
     {
@@ -221,7 +221,7 @@
       "concern_key": "D3",
       "definition": "Traceability. Where does data originate and propagate?",
       "layer": "Data Architecture",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "Data Lineage View"
     },
     {
@@ -229,7 +229,7 @@
       "concern_key": "D4",
       "definition": "Ownership and value. What data assets exist and who owns them?",
       "layer": "Data Architecture",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "Data Asset View"
     },
     {
@@ -237,7 +237,7 @@
       "concern_key": "D5",
       "definition": "Business entities. What core business entities exist?",
       "layer": "Data Architecture",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "Conceptual Data Entity View"
     },
     {
@@ -245,7 +245,7 @@
       "concern_key": "D6",
       "definition": "Quality assurance. Is data accurate, complete, and timely?",
       "layer": "Data Architecture",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "Data Quality View"
     },
     {
@@ -261,7 +261,7 @@
       "concern_key": "D8",
       "definition": "Technical pipelines. How is data processed technically?",
       "layer": "Data Architecture",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "Data Pipeline View"
     },
     {
@@ -277,7 +277,7 @@
       "concern_key": "DIN1",
       "definition": "Deployment topology. Where are applications deployed?",
       "layer": "Deployment / Infrastructure / Networking",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "Application Deployment Location View"
     },
     {
@@ -285,7 +285,7 @@
       "concern_key": "DIN2",
       "definition": "Network segmentation. How is the network structured?",
       "layer": "Deployment / Infrastructure / Networking",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "Network Topology View"
     },
     {
@@ -293,7 +293,7 @@
       "concern_key": "DIN3",
       "definition": "Infrastructure layout. What infrastructure components exist?",
       "layer": "Deployment / Infrastructure / Networking",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "Infrastructure Composition View"
     },
     {
@@ -301,7 +301,7 @@
       "concern_key": "DIN4",
       "definition": "Scaling and capacity. How are resources allocated and scaled?",
       "layer": "Deployment / Infrastructure / Networking",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "Resource & Capacity View"
     },
     {
@@ -309,7 +309,7 @@
       "concern_key": "DIN5",
       "definition": "Define backup, restore, and regional failover strategy.",
       "layer": "Deployment / Infrastructure / Networking",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "Disaster Recovery"
     },
     {
@@ -317,7 +317,7 @@
       "concern_key": "DIN6",
       "definition": "Plan horizontal and vertical scaling with bottleneck controls.",
       "layer": "Deployment / Infrastructure / Networking",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "Scalability and Capacity"
     },
     {
@@ -325,7 +325,7 @@
       "concern_key": "IP1",
       "definition": "Business-level integration. How do applications exchange data?",
       "layer": "Integration & Processing",
-      "score": 0.435,
+      "score": 0.395,
       "viewpoint": "Application Integration View"
     },
     {
@@ -341,7 +341,7 @@
       "concern_key": "IP3",
       "definition": "Execution semantics. How are requests processed end-to-end?",
       "layer": "Integration & Processing",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "System Processing View"
     },
     {
@@ -349,7 +349,7 @@
       "concern_key": "IP4",
       "definition": "Action paths. What actions and decisions occur during execution?",
       "layer": "Integration & Processing",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "Activity View"
     },
     {
@@ -357,7 +357,7 @@
       "concern_key": "IP5",
       "definition": "Workflow execution. How do workflows orchestrate services?",
       "layer": "Integration & Processing",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "Process Flow View"
     },
     {
@@ -365,7 +365,7 @@
       "concern_key": "IP6",
       "definition": "Call ordering. What is the interaction sequence?",
       "layer": "Integration & Processing",
-      "score": 0.435,
+      "score": 0.395,
       "viewpoint": "Sequence Interaction View"
     },
     {
@@ -373,7 +373,7 @@
       "concern_key": "IP7",
       "definition": "Specify APIs, versioning, and compatibility guarantees.",
       "layer": "Integration & Processing",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "Interface Contract Stability"
     },
     {
@@ -381,7 +381,7 @@
       "concern_key": "IP8",
       "definition": "Capture cross-system dependencies and communication paths.",
       "layer": "Integration & Processing",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "Dependency and Interaction Map"
     },
     {
@@ -389,7 +389,7 @@
       "concern_key": "OR1",
       "definition": "Incident handling. How are incidents managed operationally?",
       "layer": "Operations & Reliability",
-      "score": 0.435,
+      "score": 0.395,
       "viewpoint": "Operations View"
     },
     {
@@ -397,7 +397,7 @@
       "concern_key": "OR2",
       "definition": "Recovery strategy. What are RPO/RTO objectives?",
       "layer": "Operations & Reliability",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "Resilience & DR View"
     },
     {
@@ -405,7 +405,7 @@
       "concern_key": "OR3",
       "definition": "Reliability targets. What service levels are required?",
       "layer": "Operations & Reliability",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "Reliability & SLO View"
     },
     {
@@ -413,7 +413,7 @@
       "concern_key": "OR4",
       "definition": "System visibility. How is system health observed?",
       "layer": "Operations & Reliability",
-      "score": 0.435,
+      "score": 0.395,
       "viewpoint": "Monitoring & Observability View"
     },
     {
@@ -421,7 +421,7 @@
       "concern_key": "OR5",
       "definition": "Learning loops. How do operations inform evolution?",
       "layer": "Operations & Reliability",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "Operational Feedback View"
     },
     {
@@ -429,7 +429,7 @@
       "concern_key": "SCR1",
       "definition": "Control mechanisms. What controls enforce security policy?",
       "layer": "Security, Compliance & Risk",
-      "score": 0.715,
+      "score": 0.675,
       "viewpoint": "Security Control View"
     },
     {
@@ -437,7 +437,7 @@
       "concern_key": "SCR11",
       "definition": "Map authentication, authorization, and least privilege controls.",
       "layer": "Security, Compliance & Risk",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "Identity and Access Control"
     },
     {
@@ -445,7 +445,7 @@
       "concern_key": "SCR2",
       "definition": "Threat analysis. What threats and risks exist?",
       "layer": "Security, Compliance & Risk",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "Threat & Risk Modeling View"
     },
     {
@@ -453,7 +453,7 @@
       "concern_key": "SCR3",
       "definition": "Adversarial traversal. How could an attacker move through the system?",
       "layer": "Security, Compliance & Risk",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "Attack Path View"
     },
     {
@@ -461,7 +461,7 @@
       "concern_key": "SCR4",
       "definition": "Service trust. How do services authenticate each other?",
       "layer": "Security, Compliance & Risk",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "Service Authentication View"
     },
     {
@@ -469,7 +469,7 @@
       "concern_key": "SCR5",
       "definition": "User identity. How are users authenticated?",
       "layer": "Security, Compliance & Risk",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "User Authentication View"
     },
     {
@@ -477,7 +477,7 @@
       "concern_key": "SCR6",
       "definition": "Access enforcement. Who is authorized to do what?",
       "layer": "Security, Compliance & Risk",
-      "score": 0.075,
+      "score": 0.0,
       "viewpoint": "Authorization & Access Control View"
     },
     {
