@@ -33,6 +33,22 @@
       "viewpoint": "User Role-Application Mapping View"
     },
     {
+      "classification": "Optional",
+      "concern_key": "A5",
+      "definition": "Clarify service boundaries and domain ownership.",
+      "layer": "Application",
+      "score": 0.03,
+      "viewpoint": "Application Domain Boundary"
+    },
+    {
+      "classification": "Optional",
+      "concern_key": "A6",
+      "definition": "Define fallback, retry, and graceful degradation strategy.",
+      "layer": "Application",
+      "score": 0.03,
+      "viewpoint": "Application Resilience Pattern"
+    },
+    {
       "classification": "Recommended",
       "concern_key": "AGD1",
       "definition": "Decision rationale. What architectural decisions were made and why?",
@@ -71,6 +87,22 @@
       "layer": "Architecture Governance & Decision",
       "score": 0.03,
       "viewpoint": "Team-Architecture Alignment View"
+    },
+    {
+      "classification": "Optional",
+      "concern_key": "AGD6",
+      "definition": "Trace controls to policies, systems, and responsible roles.",
+      "layer": "Governance",
+      "score": 0.03,
+      "viewpoint": "Control Traceability Matrix"
+    },
+    {
+      "classification": "Recommended",
+      "concern_key": "AGD7",
+      "definition": "Document decision rationale and approval trail.",
+      "layer": "Governance",
+      "score": 0.39,
+      "viewpoint": "Architecture Decision Record"
     },
     {
       "classification": "Optional",
@@ -274,6 +306,22 @@
     },
     {
       "classification": "Optional",
+      "concern_key": "DIN5",
+      "definition": "Define backup, restore, and regional failover strategy.",
+      "layer": "Infrastructure",
+      "score": 0.03,
+      "viewpoint": "Disaster Recovery"
+    },
+    {
+      "classification": "Optional",
+      "concern_key": "DIN6",
+      "definition": "Plan horizontal and vertical scaling with bottleneck controls.",
+      "layer": "Infrastructure",
+      "score": 0.03,
+      "viewpoint": "Scalability and Capacity"
+    },
+    {
+      "classification": "Optional",
       "concern_key": "IP1",
       "definition": "Business-level integration. How do applications exchange data?",
       "layer": "Integration & Processing",
@@ -319,6 +367,22 @@
       "layer": "Integration & Processing",
       "score": 0.03,
       "viewpoint": "Sequence Interaction View"
+    },
+    {
+      "classification": "Optional",
+      "concern_key": "IP7",
+      "definition": "Specify APIs, versioning, and compatibility guarantees.",
+      "layer": "Integration",
+      "score": 0.03,
+      "viewpoint": "Interface Contract Stability"
+    },
+    {
+      "classification": "Optional",
+      "concern_key": "IP8",
+      "definition": "Capture cross-system dependencies and communication paths.",
+      "layer": "Integration",
+      "score": 0.03,
+      "viewpoint": "Dependency and Interaction Map"
     },
     {
       "classification": "Optional",
@@ -370,6 +434,14 @@
     },
     {
       "classification": "Optional",
+      "concern_key": "SCR11",
+      "definition": "Map authentication, authorization, and least privilege controls.",
+      "layer": "Security",
+      "score": 0.03,
+      "viewpoint": "Identity and Access Control"
+    },
+    {
+      "classification": "Optional",
       "concern_key": "SCR2",
       "definition": "Threat analysis. What threats and risks exist?",
       "layer": "Security, Compliance & Risk",
@@ -415,78 +487,6 @@
       "layer": "Security, Compliance & Risk",
       "score": 0.03,
       "viewpoint": "Compliance Boundary View"
-    },
-    {
-      "classification": "Optional",
-      "concern_key": "app_domain_boundary",
-      "definition": "Clarify service boundaries and domain ownership.",
-      "layer": "Application",
-      "score": 0.03,
-      "viewpoint": "Application Domain Boundary"
-    },
-    {
-      "classification": "Optional",
-      "concern_key": "app_resilience_pattern",
-      "definition": "Define fallback, retry, and graceful degradation strategy.",
-      "layer": "Application",
-      "score": 0.03,
-      "viewpoint": "Application Resilience Pattern"
-    },
-    {
-      "classification": "Optional",
-      "concern_key": "governance_control_matrix",
-      "definition": "Trace controls to policies, systems, and responsible roles.",
-      "layer": "Governance",
-      "score": 0.03,
-      "viewpoint": "Control Traceability Matrix"
-    },
-    {
-      "classification": "Recommended",
-      "concern_key": "governance_decision_log",
-      "definition": "Document decision rationale and approval trail.",
-      "layer": "Governance",
-      "score": 0.39,
-      "viewpoint": "Architecture Decision Record"
-    },
-    {
-      "classification": "Optional",
-      "concern_key": "infra_recovery",
-      "definition": "Define backup, restore, and regional failover strategy.",
-      "layer": "Infrastructure",
-      "score": 0.03,
-      "viewpoint": "Disaster Recovery"
-    },
-    {
-      "classification": "Optional",
-      "concern_key": "infra_scalability",
-      "definition": "Plan horizontal and vertical scaling with bottleneck controls.",
-      "layer": "Infrastructure",
-      "score": 0.03,
-      "viewpoint": "Scalability and Capacity"
-    },
-    {
-      "classification": "Optional",
-      "concern_key": "integration_contract",
-      "definition": "Specify APIs, versioning, and compatibility guarantees.",
-      "layer": "Integration",
-      "score": 0.03,
-      "viewpoint": "Interface Contract Stability"
-    },
-    {
-      "classification": "Optional",
-      "concern_key": "integration_dependency_map",
-      "definition": "Capture cross-system dependencies and communication paths.",
-      "layer": "Integration",
-      "score": 0.03,
-      "viewpoint": "Dependency and Interaction Map"
-    },
-    {
-      "classification": "Optional",
-      "concern_key": "security_identity_access",
-      "definition": "Map authentication, authorization, and least privilege controls.",
-      "layer": "Security",
-      "score": 0.03,
-      "viewpoint": "Identity and Access Control"
     }
   ],
   "fixture_version": "1.0",
@@ -505,11 +505,11 @@
       "raw_activation_score": 8.0
     },
     {
-      "concern_key": "C1",
+      "concern_key": "AGD7",
       "raw_activation_score": 8.0
     },
     {
-      "concern_key": "governance_decision_log",
+      "concern_key": "C1",
       "raw_activation_score": 8.0
     }
   ],
