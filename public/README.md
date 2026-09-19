@@ -28,3 +28,24 @@ receive a score, and every other concern falls back to the complexity boost and
 classifies as `Optional`. `Mandatory`/`Recommended` can therefore appear only
 among activated concerns, and expert-versus-AVDM agreement is descriptive, not
 a controlled comparison. See [`INPUT_REPRESENTATION.md`](INPUT_REPRESENTATION.md).
+
+## Item identifiers
+
+Nine item ids were normalized from legacy slug ids to the canonical code keys
+after data collection (a pure identifier rename; ratings and labels are
+unchanged):
+
+| Legacy id | Code key |
+|-----------|----------|
+| `app_domain_boundary` | `A5` |
+| `app_resilience_pattern` | `A6` |
+| `governance_control_matrix` | `AGD6` |
+| `governance_decision_log` | `AGD7` |
+| `infra_recovery` | `DIN5` |
+| `infra_scalability` | `DIN6` |
+| `integration_contract` | `IP7` |
+| `integration_dependency_map` | `IP8` |
+| `security_identity_access` | `SCR11` |
+
+The same normalization is applied across the case briefs, rating forms,
+reference labels, and questionnaire imports.

@@ -49,12 +49,12 @@ Mandatory：缺失会留下不可接受的决策、合规或运行风险暴露�
 Application[段落说明]
 请为本层每个viewpoint选择一个等级。
 
-9. app_domain_boundary - Application Domain Boundary — Clarify service boundaries and domain ownership.[单选题]
+9. A5 - Application Domain Boundary — Clarify service boundaries and domain ownership.[单选题]
 Mandatory
 Recommended
 Optional
 
-10. app_resilience_pattern - Application Resilience Pattern — Define fallback, retry, and graceful degradation strategy.[单选题]
+10. A6 - Application Resilience Pattern — Define fallback, retry, and graceful degradation strategy.[单选题]
 Mandatory
 Recommended
 Optional
@@ -250,12 +250,12 @@ Optional
 Governance[段落说明]
 请为本层每个viewpoint选择一个等级。
 
-45. governance_control_matrix - Control Traceability Matrix — Trace controls to policies, systems, and responsible roles.[单选题]
+45. AGD6 - Control Traceability Matrix — Trace controls to policies, systems, and responsible roles.[单选题]
 Mandatory
 Recommended
 Optional
 
-46. governance_decision_log - Architecture Decision Record — Document decision rationale and approval trail.[单选题]
+46. AGD7 - Architecture Decision Record — Document decision rationale and approval trail.[单选题]
 Mandatory
 Recommended
 Optional
@@ -263,12 +263,12 @@ Optional
 Infrastructure[段落说明]
 请为本层每个viewpoint选择一个等级。
 
-47. infra_recovery - Disaster Recovery — Define backup, restore, and regional failover strategy.[单选题]
+47. DIN5 - Disaster Recovery — Define backup, restore, and regional failover strategy.[单选题]
 Mandatory
 Recommended
 Optional
 
-48. infra_scalability - Scalability and Capacity — Plan horizontal and vertical scaling with bottleneck controls.[单选题]
+48. DIN6 - Scalability and Capacity — Plan horizontal and vertical scaling with bottleneck controls.[单选题]
 Mandatory
 Recommended
 Optional
@@ -276,12 +276,12 @@ Optional
 Integration[段落说明]
 请为本层每个viewpoint选择一个等级。
 
-49. integration_contract - Interface Contract Stability — Specify APIs, versioning, and compatibility guarantees.[单选题]
+49. IP7 - Interface Contract Stability — Specify APIs, versioning, and compatibility guarantees.[单选题]
 Mandatory
 Recommended
 Optional
 
-50. integration_dependency_map - Dependency and Interaction Map — Capture cross-system dependencies and communication paths.[单选题]
+50. IP8 - Dependency and Interaction Map — Capture cross-system dependencies and communication paths.[单选题]
 Mandatory
 Recommended
 Optional
@@ -350,7 +350,7 @@ Optional
 Security[段落说明]
 请为本层每个viewpoint选择一个等级。
 
-62. security_identity_access - Identity and Access Control — Map authentication, authorization, and least privilege controls.[单选题]
+62. SCR11 - Identity and Access Control — Map authentication, authorization, and least privilege controls.[单选题]
 Mandatory
 Recommended
 Optional

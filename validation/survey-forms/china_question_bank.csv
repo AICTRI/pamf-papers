@@ -1,6 +1,6 @@
 ﻿item_id,layer,viewpoint_en,definition_en,option_1,option_2,option_3,required
-app_domain_boundary,Application,Application Domain Boundary,Clarify service boundaries and domain ownership.,Mandatory,Recommended,Optional,Yes
-app_resilience_pattern,Application,Application Resilience Pattern,"Define fallback, retry, and graceful degradation strategy.",Mandatory,Recommended,Optional,Yes
+A5,Application,Application Domain Boundary,Clarify service boundaries and domain ownership.,Mandatory,Recommended,Optional,Yes
+A6,Application,Application Resilience Pattern,"Define fallback, retry, and graceful degradation strategy.",Mandatory,Recommended,Optional,Yes
 AGD1,Architecture Governance & Decision,Architecture Decision View,Decision rationale. What architectural decisions were made and why?,Mandatory,Recommended,Optional,Yes
 AGD2,Architecture Governance & Decision,Evolution & Change Impact View,Change analysis. What is impacted by a proposed change?,Mandatory,Recommended,Optional,Yes
 AGD3,Architecture Governance & Decision,Quality Attribute Trade-off View,Trade-off reasoning. How are quality attributes balanced?,Mandatory,Recommended,Optional,Yes
@@ -35,12 +35,12 @@ DIN1,Deployment / Infrastructure / Networking,Application Deployment Location Vi
 DIN2,Deployment / Infrastructure / Networking,Network Topology View,Network segmentation. How is the network structured?,Mandatory,Recommended,Optional,Yes
 DIN3,Deployment / Infrastructure / Networking,Infrastructure Composition View,Infrastructure layout. What infrastructure components exist?,Mandatory,Recommended,Optional,Yes
 DIN4,Deployment / Infrastructure / Networking,Resource & Capacity View,Scaling and capacity. How are resources allocated and scaled?,Mandatory,Recommended,Optional,Yes
-governance_control_matrix,Governance,Control Traceability Matrix,"Trace controls to policies, systems, and responsible roles.",Mandatory,Recommended,Optional,Yes
-governance_decision_log,Governance,Architecture Decision Record,Document decision rationale and approval trail.,Mandatory,Recommended,Optional,Yes
-infra_recovery,Infrastructure,Disaster Recovery,"Define backup, restore, and regional failover strategy.",Mandatory,Recommended,Optional,Yes
-infra_scalability,Infrastructure,Scalability and Capacity,Plan horizontal and vertical scaling with bottleneck controls.,Mandatory,Recommended,Optional,Yes
-integration_contract,Integration,Interface Contract Stability,"Specify APIs, versioning, and compatibility guarantees.",Mandatory,Recommended,Optional,Yes
-integration_dependency_map,Integration,Dependency and Interaction Map,Capture cross-system dependencies and communication paths.,Mandatory,Recommended,Optional,Yes
+AGD6,Governance,Control Traceability Matrix,"Trace controls to policies, systems, and responsible roles.",Mandatory,Recommended,Optional,Yes
+AGD7,Governance,Architecture Decision Record,Document decision rationale and approval trail.,Mandatory,Recommended,Optional,Yes
+DIN5,Infrastructure,Disaster Recovery,"Define backup, restore, and regional failover strategy.",Mandatory,Recommended,Optional,Yes
+DIN6,Infrastructure,Scalability and Capacity,Plan horizontal and vertical scaling with bottleneck controls.,Mandatory,Recommended,Optional,Yes
+IP7,Integration,Interface Contract Stability,"Specify APIs, versioning, and compatibility guarantees.",Mandatory,Recommended,Optional,Yes
+IP8,Integration,Dependency and Interaction Map,Capture cross-system dependencies and communication paths.,Mandatory,Recommended,Optional,Yes
 IP1,Integration & Processing,Application Integration View,Business-level integration. How do applications exchange data?,Mandatory,Recommended,Optional,Yes
 IP2,Integration & Processing,Technical Integration View,"Technical constraints. What latency, throughput, or coupling constraints exist?",Mandatory,Recommended,Optional,Yes
 IP3,Integration & Processing,System Processing View,Execution semantics. How are requests processed end-to-end?,Mandatory,Recommended,Optional,Yes
@@ -52,7 +52,7 @@ OR2,Operations & Reliability,Resilience & DR View,Recovery strategy. What are RP
 OR3,Operations & Reliability,Reliability & SLO View,Reliability targets. What service levels are required?,Mandatory,Recommended,Optional,Yes
 OR4,Operations & Reliability,Monitoring & Observability View,System visibility. How is system health observed?,Mandatory,Recommended,Optional,Yes
 OR5,Operations & Reliability,Operational Feedback View,Learning loops. How do operations inform evolution?,Mandatory,Recommended,Optional,Yes
-security_identity_access,Security,Identity and Access Control,"Map authentication, authorization, and least privilege controls.",Mandatory,Recommended,Optional,Yes
+SCR11,Security,Identity and Access Control,"Map authentication, authorization, and least privilege controls.",Mandatory,Recommended,Optional,Yes
 SCR1,"Security, Compliance & Risk",Security Control View,Control mechanisms. What controls enforce security policy?,Mandatory,Recommended,Optional,Yes
 SCR2,"Security, Compliance & Risk",Threat & Risk Modeling View,Threat analysis. What threats and risks exist?,Mandatory,Recommended,Optional,Yes
 SCR3,"Security, Compliance & Risk",Attack Path View,Adversarial traversal. How could an attacker move through the system?,Mandatory,Recommended,Optional,Yes

@@ -56,12 +56,12 @@ AI/ML
 已理解
 
 ===分页===
-app_domain_boundary - Application Domain Boundary[单选题][必答](Clarify service boundaries and domain ownership.)
+A5 - Application Domain Boundary[单选题][必答](Clarify service boundaries and domain ownership.)
 Mandatory
 Recommended
 Optional
 
-app_resilience_pattern - Application Resilience Pattern[单选题][必答](Define fallback, retry, and graceful degradation strategy.)
+A6 - Application Resilience Pattern[单选题][必答](Define fallback, retry, and graceful degradation strategy.)
 Mandatory
 Recommended
 Optional
@@ -243,34 +243,34 @@ Recommended
 Optional
 
 ===分页===
-governance_control_matrix - Control Traceability Matrix[单选题][必答](Trace controls to policies, systems, and responsible roles.)
+AGD6 - Control Traceability Matrix[单选题][必答](Trace controls to policies, systems, and responsible roles.)
 Mandatory
 Recommended
 Optional
 
-governance_decision_log - Architecture Decision Record[单选题][必答](Document decision rationale and approval trail.)
-Mandatory
-Recommended
-Optional
-
-===分页===
-infra_recovery - Disaster Recovery[单选题][必答](Define backup, restore, and regional failover strategy.)
-Mandatory
-Recommended
-Optional
-
-infra_scalability - Scalability and Capacity[单选题][必答](Plan horizontal and vertical scaling with bottleneck controls.)
+AGD7 - Architecture Decision Record[单选题][必答](Document decision rationale and approval trail.)
 Mandatory
 Recommended
 Optional
 
 ===分页===
-integration_contract - Interface Contract Stability[单选题][必答](Specify APIs, versioning, and compatibility guarantees.)
+DIN5 - Disaster Recovery[单选题][必答](Define backup, restore, and regional failover strategy.)
 Mandatory
 Recommended
 Optional
 
-integration_dependency_map - Dependency and Interaction Map[单选题][必答](Capture cross-system dependencies and communication paths.)
+DIN6 - Scalability and Capacity[单选题][必答](Plan horizontal and vertical scaling with bottleneck controls.)
+Mandatory
+Recommended
+Optional
+
+===分页===
+IP7 - Interface Contract Stability[单选题][必答](Specify APIs, versioning, and compatibility guarantees.)
+Mandatory
+Recommended
+Optional
+
+IP8 - Dependency and Interaction Map[单选题][必答](Capture cross-system dependencies and communication paths.)
 Mandatory
 Recommended
 Optional
@@ -333,7 +333,7 @@ Recommended
 Optional
 
 ===分页===
-security_identity_access - Identity and Access Control[单选题][必答](Map authentication, authorization, and least privilege controls.)
+SCR11 - Identity and Access Control[单选题][必答](Map authentication, authorization, and least privilege controls.)
 Mandatory
 Recommended
 Optional
