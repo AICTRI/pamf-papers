@@ -24,6 +24,7 @@ Run from the repository root:
 ```sh
 python scripts/analysis/run_sensitivity.py
 python scripts/analysis/test_analysis.py
+python scripts/analysis/activation_coverage.py
 ```
 
 Verify a fixture before analysis:
