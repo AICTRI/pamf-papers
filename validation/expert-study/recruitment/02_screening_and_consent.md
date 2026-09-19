@@ -18,7 +18,7 @@ questions 3 and 7, and answer No to questions 5 and 6.
 
 ## Study Information
 
-**Researcher:** Huiwen Han, independent researcher, hanhuiwen@gmail.com.
+**Researcher:** Huiwen Han, independent researcher, [contact withheld pending manuscript release].
 
 **Purpose:** To measure agreement among experienced architects and alignment
 between their judgments and a configurable architecture-viewpoint decision
