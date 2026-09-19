@@ -32,8 +32,8 @@ a controlled comparison. See [`INPUT_REPRESENTATION.md`](INPUT_REPRESENTATION.md
 ## Item identifiers
 
 Nine item ids were normalized from legacy slug ids to the canonical code keys
-after data collection (a pure identifier rename; ratings and labels are
-unchanged):
+after data collection, and the layer/viewpoint labels were aligned to the
+canonical catalog (ratings are unchanged):
 
 | Legacy id | Code key |
 |-----------|----------|

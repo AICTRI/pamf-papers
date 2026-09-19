@@ -36,7 +36,7 @@
       "classification": "Optional",
       "concern_key": "A5",
       "definition": "Clarify service boundaries and domain ownership.",
-      "layer": "Application",
+      "layer": "Context & Application",
       "score": 0.075,
       "viewpoint": "Application Domain Boundary"
     },
@@ -44,9 +44,9 @@
       "classification": "Optional",
       "concern_key": "A6",
       "definition": "Define fallback, retry, and graceful degradation strategy.",
-      "layer": "Application",
+      "layer": "Context & Application",
       "score": 0.075,
-      "viewpoint": "Application Resilience Pattern"
+      "viewpoint": "Application Resilience"
     },
     {
       "classification": "Recommended",
@@ -92,7 +92,7 @@
       "classification": "Optional",
       "concern_key": "AGD6",
       "definition": "Trace controls to policies, systems, and responsible roles.",
-      "layer": "Governance",
+      "layer": "Architecture Governance & Decision",
       "score": 0.075,
       "viewpoint": "Control Traceability Matrix"
     },
@@ -100,7 +100,7 @@
       "classification": "Optional",
       "concern_key": "AGD7",
       "definition": "Document decision rationale and approval trail.",
-      "layer": "Governance",
+      "layer": "Architecture Governance & Decision",
       "score": 0.075,
       "viewpoint": "Architecture Decision Record"
     },
@@ -308,7 +308,7 @@
       "classification": "Optional",
       "concern_key": "DIN5",
       "definition": "Define backup, restore, and regional failover strategy.",
-      "layer": "Infrastructure",
+      "layer": "Deployment / Infrastructure / Networking",
       "score": 0.075,
       "viewpoint": "Disaster Recovery"
     },
@@ -316,7 +316,7 @@
       "classification": "Optional",
       "concern_key": "DIN6",
       "definition": "Plan horizontal and vertical scaling with bottleneck controls.",
-      "layer": "Infrastructure",
+      "layer": "Deployment / Infrastructure / Networking",
       "score": 0.075,
       "viewpoint": "Scalability and Capacity"
     },
@@ -372,7 +372,7 @@
       "classification": "Optional",
       "concern_key": "IP7",
       "definition": "Specify APIs, versioning, and compatibility guarantees.",
-      "layer": "Integration",
+      "layer": "Integration & Processing",
       "score": 0.075,
       "viewpoint": "Interface Contract Stability"
     },
@@ -380,7 +380,7 @@
       "classification": "Optional",
       "concern_key": "IP8",
       "definition": "Capture cross-system dependencies and communication paths.",
-      "layer": "Integration",
+      "layer": "Integration & Processing",
       "score": 0.075,
       "viewpoint": "Dependency and Interaction Map"
     },
@@ -436,7 +436,7 @@
       "classification": "Optional",
       "concern_key": "SCR11",
       "definition": "Map authentication, authorization, and least privilege controls.",
-      "layer": "Security",
+      "layer": "Security, Compliance & Risk",
       "score": 0.075,
       "viewpoint": "Identity and Access Control"
     },

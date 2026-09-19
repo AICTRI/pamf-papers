@@ -61,7 +61,7 @@ Mandatory
 Recommended
 Optional
 
-A6 - Application Resilience Pattern[单选题][必答](Define fallback, retry, and graceful degradation strategy.)
+A6 - Application Resilience[单选题][必答](Define fallback, retry, and graceful degradation strategy.)
 Mandatory
 Recommended
 Optional
