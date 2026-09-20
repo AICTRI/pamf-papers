@@ -4,7 +4,7 @@ Screenshots of the AXISRobo-PAMP admin surfaces that configure AVDM, so the
 mechanism can be reviewed without installing the platform. They complement
 `../reference_config/` (the data) and `../` (the benchmark outputs).
 
-Captured from the software revision tagged `R.3.0`, running against the
+Captured from the software revision tagged `R4.0`, running against the
 reference configuration in the `axisarch` database. No participant or client
 data is present.
 

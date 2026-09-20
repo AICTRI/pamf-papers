@@ -1,4 +1,4 @@
-# AVDM Reference Configuration (R.3.0)
+# AVDM Reference Configuration (R4.0)
 
 A reader-friendly snapshot of the AVDM decision configuration, so the model can
 be understood without installing AXISRobo-PAMP. It is the input side of AVDM:
@@ -35,8 +35,8 @@ Each file has a matching `.sha256` with the digest of its exact bytes.
 
 ## Provenance and scope
 
-- Exported from the author's AVDM database at the revision tagged `R.3.0` of
-  [AXISRobo-PAMP](https://github.com/axisrobo/AXISRobo-PAMP/tree/R.3.0).
+- Exported from the author's AVDM database at the revision tagged `R4.0` of
+  [AXISRobo-PAMP](https://github.com/axisrobo/AXISRobo-PAMP/tree/R4.0).
 - This is a **frozen reference snapshot**. It is not reproducible from the
   released inputs alone, because the source configuration lives in a private
   database; the software repository remains the canonical, editable source.
