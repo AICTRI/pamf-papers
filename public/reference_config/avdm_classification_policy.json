@@ -1,0 +1,12 @@
+{
+  "note": "Reference governance policy. Thresholds and the complexity coefficient are policy defaults, not fitted probabilities.",
+  "policy": {
+    "complexityCoefficient": 0.15,
+    "mandatoryThreshold": 0.9,
+    "maxMandatoryCount": null,
+    "maxMandatoryRatio": null,
+    "recommendedThreshold": 0.5,
+    "tieBreakStrategy": "score_then_key",
+    "topNPriorityBudget": null
+  }
+}

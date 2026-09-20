@@ -8,6 +8,9 @@ The source of truth for the release decision is
 
 - Fictional, constructed benchmark fixtures (`case_x`, `case_m`,
   `case_low_risk`) with digests.
+- The AVDM reference configuration snapshot (concern catalog, question catalog,
+  mappings, rules, policy) in `public/reference_config/`, which contains no
+  personal or client data.
 - Aggregate sensitivity, threshold, and combination-rule results.
 - Analysis scripts that contain no personal data or local identifiers.
 - Study protocol, case briefs, blank rating forms, and recruitment templates

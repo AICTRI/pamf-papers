@@ -1,0 +1,70 @@
+question_id,question_text,category,answer_type,option_set,source_scope,source_ref,is_active
+1,Will this project introduce a new business model or business process?,business_change,radio,questionYesNoOptions,question_bank,,True
+2,Will this project build a new custom application?,application_change,radio,questionYesNoOptions,question_bank,,True
+3,Will this project refactor an existing application?,application_change,radio,questionYesNoOptions,question_bank,,True
+4,Will this project sunset an existing application?,application_change,radio,questionYesNoOptions,question_bank,,True
+5,Will this project purchase SaaS software?,application_change,radio,questionYesNoOptions,question_bank,,True
+6,Will this project purchase new licenses or capacity for existing SaaS software?,application_change,radio,questionYesNoOptions,question_bank,,True
+7,Will this project onboard a new user group with significantly different roles or permissions?,application_change,radio,questionYesNoOptions,question_bank,,True
+8,Will this project enable external access for the application for the first time?,application_change,radio,questionYesNoOptions,question_bank,,True
+9,Will this project start storing PII or change the scope of PII stored by the application?,data_change,radio,questionYesNoOptions,question_bank,,True
+10,Will this project integrate with another internal or external IT system for the first time?,data_change,radio,questionYesNoOptions,question_bank,,True
+11,Will this project start exchanging new data entities between already integrated systems?,data_change,radio,questionYesNoOptions,question_bank,,True
+12,Will this project use development languages outside the approved list?,technology_change,radio,questionYesNoOptions,question_bank,,True
+13,Will this project use frameworks or core libraries outside the approved list?,technology_change,radio,questionYesNoOptions,question_bank,,True
+14,Will this project use technical platforms or middleware outside the approved list?,technology_change,radio,questionYesNoOptions,question_bank,,True
+15,Will this project use technical tools outside the approved list?,technology_change,radio,questionYesNoOptions,question_bank,,True
+16,Will this project use restricted software?,technology_change,radio,questionYesNoOptions,question_bank,,True
+17,"Will this project use communication protocols other than HTTP(S), Kafka, or JDBC?",technology_change,radio,questionYesNoOptions,question_bank,,True
+18,Will this project use an application-level authentication method other than OAuth2?,technology_change,radio,questionYesNoOptions,question_bank,,True
+19,Will this project use a user-level authentication method other than SSO Provider or Enterprise IDP?,technology_change,radio,questionYesNoOptions,question_bank,,True
+20,Will this project use an authorization method other than enterprise authorizaton platform?,compliance_change,radio,questionYesNoOptions,question_bank,,True
+21,"Will this project use a deployment location or environment other than Beiyan, Shenyang, or Reston?",compliance_change,radio,questionYesNoOptions,question_bank,,True
+22,Will this project build or change reusable services consumed by more than two applications?,other_change,radio,questionYesNoOptions,question_bank,,True
+23,Will this project build or change a mini program?,technology_change,radio,questionYesNoOptions,question_bank,,True
+24,Will this project build or change a mobile app?,application_change,radio,questionYesNoOptions,question_bank,,True
+25,Will this project adopt AI in the project or application?,technology_change,radio,questionYesNoOptions,question_bank,,True
+26,How many applications are in scope?,project_scale,select,applicationCountRangeOptions,questionnaire_section,projectScaleSection.applicationsInScope,True
+27,Does it involve external systems?,project_scale,radio,questionYesNoOptions,questionnaire_section,projectScaleSection.hasExternalSystems,False
+28,How many external systems are involved?,project_scale,select,externalSystemCountRangeOptions,questionnaire_section,projectScaleSection.externalSystemsCount,True
+29,Will there be new applications?,change_scale,radio,questionYesNoOptions,questionnaire_section,changeScopeSection.hasNewApplications,False
+30,How many new applications?,change_scale,select,newApplicationCountRangeOptions,questionnaire_section,changeScopeSection.newApplicationsCount,True
+31,How many applications will be modified?,change_scale,select,modifiedApplicationCountRangeOptions,questionnaire_section,changeScopeSection.modifiedApplicationsCount,True
+32,How many data centers are involved?,technical_complexity,select,dataCenterCountRangeOptions,questionnaire_section,complexitySection.dataCenterCount,True
+33,How many clouds/regions are involved?,technical_complexity,select,cloudRegionScopeOptions,questionnaire_section,complexitySection.cloudRegionScope,True
+34,Does this involve cross-border data?,technical_complexity,radio,questionYesNoOptions,questionnaire_section,complexitySection.hasCrossBorderDataFlow,True
+35,How many technology stacks are involved?,technical_complexity,select,techStackKindsCountRangeOptions,questionnaire_section,complexitySection.techStackKindsCount,True
+36,How many integration technologies are involved?,technical_complexity,select,integrationTechKindsCountRangeOptions,questionnaire_section,complexitySection.integrationTechKindsCount,True
+37,Subsidiary / JV / holding data,compliance_change,multiselect,questionYesNoOptions,questionnaire_section,privacyCheckpoint1Section.subsidiaries,True
+38,Store/process third-party entity data,compliance_change,radio,questionYesNoOptions,questionnaire_section,privacyCheckpoint1Section.hasThirdPartyData,True
+39,Transfer data to third-party entities,compliance_change,radio,questionYesNoOptions,questionnaire_section,privacyCheckpoint1Section.transferToThirdParty,True
+40,Checkpoint 1 comments,compliance_change,textarea,,questionnaire_section,privacyCheckpoint1Section.comments,True
+41,"Does the project process data from regions such as the EU, North America, South America, Asia-Pacific, or Africa?",compliance_change,radio,questionYesNoOptions,questionnaire_section,privacyCheckpoint2Section.required,True
+42,Personal Data Type,compliance_change,select,questionYesNoOptions,questionnaire_section,privacyCheckpoint2Section.personalDataType,True
+43,Company Records,compliance_change,select,questionYesNoOptions,questionnaire_section,privacyCheckpoint2Section.companyRecords,True
+44,Government & Security Data,compliance_change,radio,questionYesNoOptions,questionnaire_section,privacyCheckpoint2Section.governmentSecurityData,True
+45,Critical Infrastructure Data,compliance_change,radio,questionYesNoOptions,questionnaire_section,privacyCheckpoint2Section.criticalInfrastructureData,True
+46,"EU, North America, South America, Asia-Pacific, or Africa data addtional information",compliance_change,textarea,,questionnaire_section,privacyCheckpoint2Section.comments,True
+47,Does the project process data from mainland China?,compliance_change,radio,questionYesNoOptions,questionnaire_section,privacyCheckpoint3Section.required,True
+48,Personal Data Type,compliance_change,select,questionYesNoOptions,questionnaire_section,privacyCheckpoint3Section.personalDataType,True
+49,Processed personal data count,compliance_change,select,questionYesNoOptions,questionnaire_section,privacyCheckpoint3Section.personalDataVolume,True
+50,Processed sensitive personal data count,compliance_change,select,questionYesNoOptions,questionnaire_section,privacyCheckpoint3Section.sensitiveDataVolume,True
+51,CIIO,compliance_change,radio,questionYesNoOptions,questionnaire_section,privacyCheckpoint3Section.ciio,True
+52,Important Data,compliance_change,radio,questionYesNoOptions,questionnaire_section,privacyCheckpoint3Section.importantData,True
+53,Cross-border Transfer,compliance_change,radio,questionYesNoOptions,questionnaire_section,privacyCheckpoint3Section.crossBorderTransfer,True
+54,PRC data addtional information,compliance_change,textarea,,questionnaire_section,privacyCheckpoint3Section.comments,True
+55,A. Complexity of Requirement,requirement_complexity,radio,assessmentMatrix:55,assessment_matrix,requirementComplexitySection.requirementUnderstanding,True
+56,B. Business Process Change & Organization Change,requirement_complexity,radio,assessmentMatrix:56,assessment_matrix,requirementComplexitySection.businessProcessChange,True
+57,C. Business Team,requirement_complexity,radio,assessmentMatrix:57,assessment_matrix,requirementComplexitySection.businessTeamCommitment,True
+58,D. Strategic Priority,requirement_complexity,radio,assessmentMatrix:58,assessment_matrix,requirementComplexitySection.strategicPriority,True
+59,E. Cross BU / GEO,requirement_complexity,radio,assessmentMatrix:59,assessment_matrix,requirementComplexitySection.crossBuGeo,True
+60,A. Solution Options,solution_complexity,radio,assessmentMatrix:60,assessment_matrix,solutionComplexitySection.solutionOptions,True
+61,B. Solution Technology,solution_complexity,radio,assessmentMatrix:61,assessment_matrix,solutionComplexitySection.solutionTechnology,True
+62,C. Impact Function Area,solution_complexity,radio,assessmentMatrix:62,assessment_matrix,solutionComplexitySection.impactFunctionArea,True
+63,D. Solution Delivery Timelines,solution_complexity,radio,assessmentMatrix:63,assessment_matrix,solutionComplexitySection.deliveryTimelines,True
+64,E. Solution Dependencies,solution_complexity,radio,assessmentMatrix:64,assessment_matrix,solutionComplexitySection.solutionDependencies,True
+65,F. Platform / Domain Dependency,solution_complexity,radio,assessmentMatrix:65,assessment_matrix,solutionComplexitySection.platformDomainDependency,True
+66,G. Architecture Impact,solution_complexity,radio,assessmentMatrix:66,assessment_matrix,solutionComplexitySection.architectureImpact,True
+67,H. Security Impact,solution_complexity,radio,assessmentMatrix:67,assessment_matrix,solutionComplexitySection.securityImpact,True
+68,A. Number of Resource,project_resource_and_size,radio,assessmentMatrix:68,assessment_matrix,resourceSizeSection.resourceCount,True
+69,B. Funding Required,project_resource_and_size,radio,assessmentMatrix:69,assessment_matrix,resourceSizeSection.fundingRequired,True

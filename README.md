@@ -13,6 +13,7 @@ for the boundary.
 | Path | Description |
 |------|-------------|
 | `public/` | Fictional benchmark fixtures (`case_x`, `case_m`, `case_low_risk`) with SHA-256 digests, the release manifest, and the input-representation note |
+| `public/reference_config/` | Frozen AVDM reference configuration: concern catalog, question catalog, question→concern mappings, interaction rules, and classification policy (understand AVDM without installing) |
 | `validation/expert-study/` | Blind expert comparison protocol, case brief, rating form, and recruitment templates |
 | `validation/expert-study-cn/round1/` | China-track Case X brief and aggregate round-1 agreement summary |
 | `validation/expert-study-cn/round2/` | China-track forced top-20 priority-budget results |

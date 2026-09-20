@@ -1,0 +1,1782 @@
+{
+  "option_items": [
+    {
+      "is_active": true,
+      "label": "5 or fewer",
+      "option_set": "applicationCountRangeOptions",
+      "score": null,
+      "value": "LE_5"
+    },
+    {
+      "is_active": true,
+      "label": "6 to 20",
+      "option_set": "applicationCountRangeOptions",
+      "score": null,
+      "value": "6_20"
+    },
+    {
+      "is_active": true,
+      "label": "21 to 50",
+      "option_set": "applicationCountRangeOptions",
+      "score": null,
+      "value": "21_50"
+    },
+    {
+      "is_active": true,
+      "label": "51 to 100",
+      "option_set": "applicationCountRangeOptions",
+      "score": null,
+      "value": "51_100"
+    },
+    {
+      "is_active": true,
+      "label": "More than 100",
+      "option_set": "applicationCountRangeOptions",
+      "score": null,
+      "value": "GT_100"
+    },
+    {
+      "is_active": true,
+      "label": "None",
+      "option_set": "assessmentMatrix:55",
+      "score": 0.0,
+      "value": "None"
+    },
+    {
+      "is_active": true,
+      "label": "Low",
+      "option_set": "assessmentMatrix:55",
+      "score": 2.0,
+      "value": "Low"
+    },
+    {
+      "is_active": true,
+      "label": "Medium",
+      "option_set": "assessmentMatrix:55",
+      "score": 4.0,
+      "value": "Medium"
+    },
+    {
+      "is_active": true,
+      "label": "High",
+      "option_set": "assessmentMatrix:55",
+      "score": 6.0,
+      "value": "High"
+    },
+    {
+      "is_active": true,
+      "label": "None",
+      "option_set": "assessmentMatrix:56",
+      "score": 0.0,
+      "value": "None"
+    },
+    {
+      "is_active": true,
+      "label": "Low",
+      "option_set": "assessmentMatrix:56",
+      "score": 2.0,
+      "value": "Low"
+    },
+    {
+      "is_active": true,
+      "label": "Medium",
+      "option_set": "assessmentMatrix:56",
+      "score": 4.0,
+      "value": "Medium"
+    },
+    {
+      "is_active": true,
+      "label": "High",
+      "option_set": "assessmentMatrix:56",
+      "score": 6.0,
+      "value": "High"
+    },
+    {
+      "is_active": true,
+      "label": "None",
+      "option_set": "assessmentMatrix:57",
+      "score": 0.0,
+      "value": "None"
+    },
+    {
+      "is_active": true,
+      "label": "Low",
+      "option_set": "assessmentMatrix:57",
+      "score": 2.0,
+      "value": "Low"
+    },
+    {
+      "is_active": true,
+      "label": "Medium",
+      "option_set": "assessmentMatrix:57",
+      "score": 4.0,
+      "value": "Medium"
+    },
+    {
+      "is_active": true,
+      "label": "High",
+      "option_set": "assessmentMatrix:57",
+      "score": 6.0,
+      "value": "High"
+    },
+    {
+      "is_active": true,
+      "label": "None",
+      "option_set": "assessmentMatrix:58",
+      "score": 0.0,
+      "value": "None"
+    },
+    {
+      "is_active": true,
+      "label": "Low",
+      "option_set": "assessmentMatrix:58",
+      "score": 2.0,
+      "value": "Low"
+    },
+    {
+      "is_active": true,
+      "label": "Medium",
+      "option_set": "assessmentMatrix:58",
+      "score": 4.0,
+      "value": "Medium"
+    },
+    {
+      "is_active": true,
+      "label": "High",
+      "option_set": "assessmentMatrix:58",
+      "score": 6.0,
+      "value": "High"
+    },
+    {
+      "is_active": true,
+      "label": "None",
+      "option_set": "assessmentMatrix:59",
+      "score": 0.0,
+      "value": "None"
+    },
+    {
+      "is_active": true,
+      "label": "Low",
+      "option_set": "assessmentMatrix:59",
+      "score": 2.0,
+      "value": "Low"
+    },
+    {
+      "is_active": true,
+      "label": "Medium",
+      "option_set": "assessmentMatrix:59",
+      "score": 4.0,
+      "value": "Medium"
+    },
+    {
+      "is_active": true,
+      "label": "High",
+      "option_set": "assessmentMatrix:59",
+      "score": 6.0,
+      "value": "High"
+    },
+    {
+      "is_active": true,
+      "label": "None",
+      "option_set": "assessmentMatrix:60",
+      "score": 0.0,
+      "value": "None"
+    },
+    {
+      "is_active": true,
+      "label": "Low",
+      "option_set": "assessmentMatrix:60",
+      "score": 2.0,
+      "value": "Low"
+    },
+    {
+      "is_active": true,
+      "label": "Medium",
+      "option_set": "assessmentMatrix:60",
+      "score": 4.0,
+      "value": "Medium"
+    },
+    {
+      "is_active": true,
+      "label": "High",
+      "option_set": "assessmentMatrix:60",
+      "score": 6.0,
+      "value": "High"
+    },
+    {
+      "is_active": true,
+      "label": "None",
+      "option_set": "assessmentMatrix:61",
+      "score": 0.0,
+      "value": "None"
+    },
+    {
+      "is_active": true,
+      "label": "Low",
+      "option_set": "assessmentMatrix:61",
+      "score": 2.0,
+      "value": "Low"
+    },
+    {
+      "is_active": true,
+      "label": "Medium",
+      "option_set": "assessmentMatrix:61",
+      "score": 4.0,
+      "value": "Medium"
+    },
+    {
+      "is_active": true,
+      "label": "High",
+      "option_set": "assessmentMatrix:61",
+      "score": 6.0,
+      "value": "High"
+    },
+    {
+      "is_active": true,
+      "label": "None",
+      "option_set": "assessmentMatrix:62",
+      "score": 0.0,
+      "value": "None"
+    },
+    {
+      "is_active": true,
+      "label": "Low",
+      "option_set": "assessmentMatrix:62",
+      "score": 2.0,
+      "value": "Low"
+    },
+    {
+      "is_active": true,
+      "label": "Medium",
+      "option_set": "assessmentMatrix:62",
+      "score": 4.0,
+      "value": "Medium"
+    },
+    {
+      "is_active": true,
+      "label": "High",
+      "option_set": "assessmentMatrix:62",
+      "score": 6.0,
+      "value": "High"
+    },
+    {
+      "is_active": true,
+      "label": "None",
+      "option_set": "assessmentMatrix:63",
+      "score": 0.0,
+      "value": "None"
+    },
+    {
+      "is_active": true,
+      "label": "Low",
+      "option_set": "assessmentMatrix:63",
+      "score": 2.0,
+      "value": "Low"
+    },
+    {
+      "is_active": true,
+      "label": "Medium",
+      "option_set": "assessmentMatrix:63",
+      "score": 4.0,
+      "value": "Medium"
+    },
+    {
+      "is_active": true,
+      "label": "High",
+      "option_set": "assessmentMatrix:63",
+      "score": 6.0,
+      "value": "High"
+    },
+    {
+      "is_active": true,
+      "label": "None",
+      "option_set": "assessmentMatrix:64",
+      "score": 0.0,
+      "value": "None"
+    },
+    {
+      "is_active": true,
+      "label": "Low",
+      "option_set": "assessmentMatrix:64",
+      "score": 2.0,
+      "value": "Low"
+    },
+    {
+      "is_active": true,
+      "label": "Medium",
+      "option_set": "assessmentMatrix:64",
+      "score": 4.0,
+      "value": "Medium"
+    },
+    {
+      "is_active": true,
+      "label": "High",
+      "option_set": "assessmentMatrix:64",
+      "score": 6.0,
+      "value": "High"
+    },
+    {
+      "is_active": true,
+      "label": "None",
+      "option_set": "assessmentMatrix:65",
+      "score": 0.0,
+      "value": "None"
+    },
+    {
+      "is_active": true,
+      "label": "Low",
+      "option_set": "assessmentMatrix:65",
+      "score": 2.0,
+      "value": "Low"
+    },
+    {
+      "is_active": true,
+      "label": "Medium",
+      "option_set": "assessmentMatrix:65",
+      "score": 4.0,
+      "value": "Medium"
+    },
+    {
+      "is_active": true,
+      "label": "High",
+      "option_set": "assessmentMatrix:65",
+      "score": 6.0,
+      "value": "High"
+    },
+    {
+      "is_active": true,
+      "label": "None",
+      "option_set": "assessmentMatrix:66",
+      "score": 0.0,
+      "value": "None"
+    },
+    {
+      "is_active": true,
+      "label": "Low",
+      "option_set": "assessmentMatrix:66",
+      "score": 2.0,
+      "value": "Low"
+    },
+    {
+      "is_active": true,
+      "label": "Medium",
+      "option_set": "assessmentMatrix:66",
+      "score": 4.0,
+      "value": "Medium"
+    },
+    {
+      "is_active": true,
+      "label": "High",
+      "option_set": "assessmentMatrix:66",
+      "score": 6.0,
+      "value": "High"
+    },
+    {
+      "is_active": true,
+      "label": "None",
+      "option_set": "assessmentMatrix:67",
+      "score": 0.0,
+      "value": "None"
+    },
+    {
+      "is_active": true,
+      "label": "Low",
+      "option_set": "assessmentMatrix:67",
+      "score": 2.0,
+      "value": "Low"
+    },
+    {
+      "is_active": true,
+      "label": "Medium",
+      "option_set": "assessmentMatrix:67",
+      "score": 4.0,
+      "value": "Medium"
+    },
+    {
+      "is_active": true,
+      "label": "High",
+      "option_set": "assessmentMatrix:67",
+      "score": 6.0,
+      "value": "High"
+    },
+    {
+      "is_active": true,
+      "label": "None",
+      "option_set": "assessmentMatrix:68",
+      "score": 0.0,
+      "value": "None"
+    },
+    {
+      "is_active": true,
+      "label": "Low",
+      "option_set": "assessmentMatrix:68",
+      "score": 2.0,
+      "value": "Low"
+    },
+    {
+      "is_active": true,
+      "label": "Medium",
+      "option_set": "assessmentMatrix:68",
+      "score": 4.0,
+      "value": "Medium"
+    },
+    {
+      "is_active": true,
+      "label": "High",
+      "option_set": "assessmentMatrix:68",
+      "score": 6.0,
+      "value": "High"
+    },
+    {
+      "is_active": true,
+      "label": "None",
+      "option_set": "assessmentMatrix:69",
+      "score": 0.0,
+      "value": "None"
+    },
+    {
+      "is_active": true,
+      "label": "Low",
+      "option_set": "assessmentMatrix:69",
+      "score": 2.0,
+      "value": "Low"
+    },
+    {
+      "is_active": true,
+      "label": "Medium",
+      "option_set": "assessmentMatrix:69",
+      "score": 4.0,
+      "value": "Medium"
+    },
+    {
+      "is_active": true,
+      "label": "High",
+      "option_set": "assessmentMatrix:69",
+      "score": 6.0,
+      "value": "High"
+    },
+    {
+      "is_active": true,
+      "label": "Single cloud / Single region",
+      "option_set": "cloudRegionScopeOptions",
+      "score": null,
+      "value": "SINGLE_CLOUD_SINGLE_REGION"
+    },
+    {
+      "is_active": true,
+      "label": "Single cloud / Multi region",
+      "option_set": "cloudRegionScopeOptions",
+      "score": null,
+      "value": "SINGLE_CLOUD_MULTI_REGION"
+    },
+    {
+      "is_active": true,
+      "label": "Multi cloud / Single region",
+      "option_set": "cloudRegionScopeOptions",
+      "score": null,
+      "value": "MULTI_CLOUD_SINGLE_REGION"
+    },
+    {
+      "is_active": true,
+      "label": "Multi cloud / Multi region",
+      "option_set": "cloudRegionScopeOptions",
+      "score": null,
+      "value": "MULTI_CLOUD_MULTI_REGION"
+    },
+    {
+      "is_active": true,
+      "label": "1",
+      "option_set": "dataCenterCountRangeOptions",
+      "score": null,
+      "value": "1"
+    },
+    {
+      "is_active": true,
+      "label": "2 to 3",
+      "option_set": "dataCenterCountRangeOptions",
+      "score": null,
+      "value": "2_3"
+    },
+    {
+      "is_active": true,
+      "label": "4 to 10",
+      "option_set": "dataCenterCountRangeOptions",
+      "score": null,
+      "value": "4_10"
+    },
+    {
+      "is_active": true,
+      "label": "More than 10",
+      "option_set": "dataCenterCountRangeOptions",
+      "score": null,
+      "value": "GT_10"
+    },
+    {
+      "is_active": true,
+      "label": "5 or fewer",
+      "option_set": "externalSystemCountRangeOptions",
+      "score": null,
+      "value": "LE_5"
+    },
+    {
+      "is_active": true,
+      "label": "5 to 20",
+      "option_set": "externalSystemCountRangeOptions",
+      "score": null,
+      "value": "5_20"
+    },
+    {
+      "is_active": true,
+      "label": "20 to 50",
+      "option_set": "externalSystemCountRangeOptions",
+      "score": null,
+      "value": "20_50"
+    },
+    {
+      "is_active": true,
+      "label": "More than 50",
+      "option_set": "externalSystemCountRangeOptions",
+      "score": null,
+      "value": "GT_50"
+    },
+    {
+      "is_active": true,
+      "label": "1 to 2",
+      "option_set": "integrationTechKindsCountRangeOptions",
+      "score": null,
+      "value": "1_2"
+    },
+    {
+      "is_active": true,
+      "label": "3 to 5",
+      "option_set": "integrationTechKindsCountRangeOptions",
+      "score": null,
+      "value": "3_5"
+    },
+    {
+      "is_active": true,
+      "label": "6 to 10",
+      "option_set": "integrationTechKindsCountRangeOptions",
+      "score": null,
+      "value": "6_10"
+    },
+    {
+      "is_active": true,
+      "label": "More than 10",
+      "option_set": "integrationTechKindsCountRangeOptions",
+      "score": null,
+      "value": "GT_10"
+    },
+    {
+      "is_active": true,
+      "label": "1",
+      "option_set": "modifiedApplicationCountRangeOptions",
+      "score": null,
+      "value": "1"
+    },
+    {
+      "is_active": true,
+      "label": "2 to 5",
+      "option_set": "modifiedApplicationCountRangeOptions",
+      "score": null,
+      "value": "2_5"
+    },
+    {
+      "is_active": true,
+      "label": "5 to 20",
+      "option_set": "modifiedApplicationCountRangeOptions",
+      "score": null,
+      "value": "5_20"
+    },
+    {
+      "is_active": true,
+      "label": "20 to 50",
+      "option_set": "modifiedApplicationCountRangeOptions",
+      "score": null,
+      "value": "20_50"
+    },
+    {
+      "is_active": true,
+      "label": "More than 50",
+      "option_set": "modifiedApplicationCountRangeOptions",
+      "score": null,
+      "value": "GT_50"
+    },
+    {
+      "is_active": true,
+      "label": "1",
+      "option_set": "newApplicationCountRangeOptions",
+      "score": null,
+      "value": "1"
+    },
+    {
+      "is_active": true,
+      "label": "2 to 5",
+      "option_set": "newApplicationCountRangeOptions",
+      "score": null,
+      "value": "2_5"
+    },
+    {
+      "is_active": true,
+      "label": "5 to 20",
+      "option_set": "newApplicationCountRangeOptions",
+      "score": null,
+      "value": "5_20"
+    },
+    {
+      "is_active": true,
+      "label": "20 to 50",
+      "option_set": "newApplicationCountRangeOptions",
+      "score": null,
+      "value": "20_50"
+    },
+    {
+      "is_active": true,
+      "label": "More than 50",
+      "option_set": "newApplicationCountRangeOptions",
+      "score": null,
+      "value": "GT_50"
+    },
+    {
+      "is_active": true,
+      "label": "Web Application / Service-Oriented System",
+      "option_set": "projectTypeOptions",
+      "score": null,
+      "value": "WEB_APP_SERVICE"
+    },
+    {
+      "is_active": true,
+      "label": "Data Project (ETL / ELT / BI)",
+      "option_set": "projectTypeOptions",
+      "score": null,
+      "value": "DATA_ETL_ELT_BI"
+    },
+    {
+      "is_active": true,
+      "label": "AI Project (ML / LLM / RAG / MLOps / LLMOps)",
+      "option_set": "projectTypeOptions",
+      "score": null,
+      "value": "AI_ML_LLM_RAG_MLOPS"
+    },
+    {
+      "is_active": true,
+      "label": "Complex Business Process System",
+      "option_set": "projectTypeOptions",
+      "score": null,
+      "value": "COMPLEX_BUSINESS_PROCESS"
+    },
+    {
+      "is_active": true,
+      "label": "Identity & Interaction-Heavy Integration",
+      "option_set": "projectTypeOptions",
+      "score": null,
+      "value": "IDENTITY_INTERACTION_HEAVY_INTEGRATION"
+    },
+    {
+      "is_active": true,
+      "label": "Performance & Resilience-Heavy Integration",
+      "option_set": "projectTypeOptions",
+      "score": null,
+      "value": "PERFORMANCE_RESILIENCE_HEAVY_INTEGRATION"
+    },
+    {
+      "is_active": false,
+      "label": "Complex Logic System (Workflow / Rule Engine / Transaction Control)",
+      "option_set": "projectTypeOptions",
+      "score": null,
+      "value": "COMPLEX_LOGIC"
+    },
+    {
+      "is_active": true,
+      "label": "Yes",
+      "option_set": "questionYesNoOptions",
+      "score": null,
+      "value": "Y"
+    },
+    {
+      "is_active": true,
+      "label": "No",
+      "option_set": "questionYesNoOptions",
+      "score": null,
+      "value": "N"
+    },
+    {
+      "is_active": true,
+      "label": "1 to 2",
+      "option_set": "techStackKindsCountRangeOptions",
+      "score": null,
+      "value": "1_2"
+    },
+    {
+      "is_active": true,
+      "label": "3 to 5",
+      "option_set": "techStackKindsCountRangeOptions",
+      "score": null,
+      "value": "3_5"
+    },
+    {
+      "is_active": true,
+      "label": "6 to 10",
+      "option_set": "techStackKindsCountRangeOptions",
+      "score": null,
+      "value": "6_10"
+    },
+    {
+      "is_active": true,
+      "label": "More than 10",
+      "option_set": "techStackKindsCountRangeOptions",
+      "score": null,
+      "value": "GT_10"
+    }
+  ],
+  "rules": [
+    {
+      "all": [
+        {
+          "equals": "Y",
+          "source": "question.7.answer"
+        },
+        {
+          "equals": "Y",
+          "source": "question.19.answer"
+        }
+      ],
+      "any": [
+        {
+          "equals": "Y",
+          "source": "question.20.answer"
+        },
+        {
+          "equals": "Y",
+          "source": "question.8.answer"
+        }
+      ],
+      "contributions": [
+        {
+          "concern_key": "A4",
+          "contribution": 4.0
+        },
+        {
+          "concern_key": "SCR5",
+          "contribution": 4.0
+        },
+        {
+          "concern_key": "SCR6",
+          "contribution": 4.0
+        },
+        {
+          "concern_key": "SCR7",
+          "contribution": 4.0
+        }
+      ],
+      "description": "User group change combined with non-standard authentication or authorization requires identity/access concern review.",
+      "is_active": true,
+      "rule_key": "identity-and-authorization-combination"
+    },
+    {
+      "all": [
+        {
+          "equals": "Yes",
+          "source": "complexitySection.hasCrossBorderDataFlow"
+        }
+      ],
+      "any": [
+        {
+          "equals": "Y",
+          "source": "question.9.answer"
+        },
+        {
+          "equals": "Yes",
+          "source": "checkpoint2.required"
+        },
+        {
+          "equals": "Yes",
+          "source": "checkpoint3.required"
+        },
+        {
+          "in": [
+            "Yes",
+            "Not Sure"
+          ],
+          "source": "checkpoint3.crossBorderTransfer"
+        }
+      ],
+      "contributions": [
+        {
+          "concern_key": "D7",
+          "contribution": 5.0
+        },
+        {
+          "concern_key": "D9",
+          "contribution": 5.0
+        },
+        {
+          "concern_key": "SCR1",
+          "contribution": 5.0
+        },
+        {
+          "concern_key": "SCR7",
+          "contribution": 5.0
+        }
+      ],
+      "description": "Cross-border flow plus privacy or important data checkpoint escalates data sovereignty and compliance concerns.",
+      "is_active": true,
+      "rule_key": "cross-border-sensitive-data"
+    },
+    {
+      "all": [
+        {
+          "in": [
+            "21_50",
+            "51_100",
+            "GT_100"
+          ],
+          "source": "projectScaleSection.applicationsInScope"
+        },
+        {
+          "in": [
+            "5_20",
+            "20_50",
+            "GT_50"
+          ],
+          "source": "projectScaleSection.externalSystemsCount"
+        }
+      ],
+      "any": [],
+      "contributions": [
+        {
+          "concern_key": "A3",
+          "contribution": 4.0
+        },
+        {
+          "concern_key": "IP1",
+          "contribution": 4.0
+        },
+        {
+          "concern_key": "IP2",
+          "contribution": 4.0
+        },
+        {
+          "concern_key": "IP6",
+          "contribution": 4.0
+        },
+        {
+          "concern_key": "DIN4",
+          "contribution": 4.0
+        },
+        {
+          "concern_key": "OR3",
+          "contribution": 4.0
+        },
+        {
+          "concern_key": "OR4",
+          "contribution": 4.0
+        }
+      ],
+      "description": "Large application scope with external systems activates integration, dependency, reliability, and capacity concerns.",
+      "is_active": true,
+      "rule_key": "large-scale-integration"
+    },
+    {
+      "all": [
+        {
+          "equals": "Y",
+          "source": "question.16.answer"
+        },
+        {
+          "in": [
+            "6_10",
+            "GT_10"
+          ],
+          "source": "complexitySection.techStackKindsCount"
+        }
+      ],
+      "any": [],
+      "contributions": [
+        {
+          "concern_key": "C4",
+          "contribution": 4.0
+        },
+        {
+          "concern_key": "SCR2",
+          "contribution": 4.0
+        },
+        {
+          "concern_key": "SCR7",
+          "contribution": 4.0
+        },
+        {
+          "concern_key": "AGD1",
+          "contribution": 4.0
+        },
+        {
+          "concern_key": "AGD3",
+          "contribution": 4.0
+        },
+        {
+          "concern_key": "OR1",
+          "contribution": 4.0
+        }
+      ],
+      "description": "Technology exception combined with broad tech stack variety increases governance and operability concern priority.",
+      "is_active": true,
+      "rule_key": "technology-exception-stack-complexity"
+    },
+    {
+      "all": [
+        {
+          "in": [
+            "capability_based"
+          ],
+          "source": "architectureTypeSection.businessArchitectureType"
+        }
+      ],
+      "any": [],
+      "contributions": [
+        {
+          "concern_key": "B1",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "B5",
+          "contribution": 3.0
+        }
+      ],
+      "description": "Architecture type (business): capability_based.",
+      "is_active": true,
+      "rule_key": "at-business-capability_based"
+    },
+    {
+      "all": [
+        {
+          "in": [
+            "process_centric"
+          ],
+          "source": "architectureTypeSection.businessArchitectureType"
+        }
+      ],
+      "any": [],
+      "contributions": [
+        {
+          "concern_key": "B2",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "IP5",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "IP4",
+          "contribution": 3.0
+        }
+      ],
+      "description": "Architecture type (business): process_centric.",
+      "is_active": true,
+      "rule_key": "at-business-process_centric"
+    },
+    {
+      "all": [
+        {
+          "in": [
+            "customer_journey"
+          ],
+          "source": "architectureTypeSection.businessArchitectureType"
+        }
+      ],
+      "any": [],
+      "contributions": [
+        {
+          "concern_key": "B3",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "A4",
+          "contribution": 3.0
+        }
+      ],
+      "description": "Architecture type (business): customer_journey.",
+      "is_active": true,
+      "rule_key": "at-business-customer_journey"
+    },
+    {
+      "all": [
+        {
+          "in": [
+            "multi_entity"
+          ],
+          "source": "architectureTypeSection.businessArchitectureType"
+        }
+      ],
+      "any": [],
+      "contributions": [
+        {
+          "concern_key": "B4",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "B5",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "AGD5",
+          "contribution": 3.0
+        }
+      ],
+      "description": "Architecture type (business): multi_entity.",
+      "is_active": true,
+      "rule_key": "at-business-multi_entity"
+    },
+    {
+      "all": [
+        {
+          "in": [
+            "platform_business"
+          ],
+          "source": "architectureTypeSection.businessArchitectureType"
+        }
+      ],
+      "any": [],
+      "contributions": [
+        {
+          "concern_key": "B1",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "B5",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "A3",
+          "contribution": 3.0
+        }
+      ],
+      "description": "Architecture type (business): platform_business.",
+      "is_active": true,
+      "rule_key": "at-business-platform_business"
+    },
+    {
+      "all": [
+        {
+          "in": [
+            "monolith"
+          ],
+          "source": "architectureTypeSection.applicationArchitectureType"
+        }
+      ],
+      "any": [],
+      "contributions": [
+        {
+          "concern_key": "A2",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "C1",
+          "contribution": 3.0
+        }
+      ],
+      "description": "Architecture type (application): monolith.",
+      "is_active": true,
+      "rule_key": "at-application-monolith"
+    },
+    {
+      "all": [
+        {
+          "in": [
+            "modular_monolith"
+          ],
+          "source": "architectureTypeSection.applicationArchitectureType"
+        }
+      ],
+      "any": [],
+      "contributions": [
+        {
+          "concern_key": "A1",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "A2",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "C2",
+          "contribution": 3.0
+        }
+      ],
+      "description": "Architecture type (application): modular_monolith.",
+      "is_active": true,
+      "rule_key": "at-application-modular_monolith"
+    },
+    {
+      "all": [
+        {
+          "in": [
+            "microservices"
+          ],
+          "source": "architectureTypeSection.applicationArchitectureType"
+        }
+      ],
+      "any": [],
+      "contributions": [
+        {
+          "concern_key": "C1",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "C2",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "A3",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "C5",
+          "contribution": 3.0
+        }
+      ],
+      "description": "Architecture type (application): microservices.",
+      "is_active": true,
+      "rule_key": "at-application-microservices"
+    },
+    {
+      "all": [
+        {
+          "in": [
+            "event_driven"
+          ],
+          "source": "architectureTypeSection.applicationArchitectureType"
+        }
+      ],
+      "any": [],
+      "contributions": [
+        {
+          "concern_key": "C5",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "IP5",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "IP6",
+          "contribution": 3.0
+        }
+      ],
+      "description": "Architecture type (application): event_driven.",
+      "is_active": true,
+      "rule_key": "at-application-event_driven"
+    },
+    {
+      "all": [
+        {
+          "in": [
+            "web_application"
+          ],
+          "source": "architectureTypeSection.applicationArchitectureType"
+        }
+      ],
+      "any": [],
+      "contributions": [
+        {
+          "concern_key": "A1",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "A2",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "A4",
+          "contribution": 3.0
+        }
+      ],
+      "description": "Architecture type (application): web_application.",
+      "is_active": true,
+      "rule_key": "at-application-web_application"
+    },
+    {
+      "all": [
+        {
+          "in": [
+            "mobile_or_client"
+          ],
+          "source": "architectureTypeSection.applicationArchitectureType"
+        }
+      ],
+      "any": [],
+      "contributions": [
+        {
+          "concern_key": "A1",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "A4",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "C5",
+          "contribution": 3.0
+        }
+      ],
+      "description": "Architecture type (application): mobile_or_client.",
+      "is_active": true,
+      "rule_key": "at-application-mobile_or_client"
+    },
+    {
+      "all": [
+        {
+          "in": [
+            "cloud_native"
+          ],
+          "source": "architectureTypeSection.technicalArchitectureType"
+        }
+      ],
+      "any": [],
+      "contributions": [
+        {
+          "concern_key": "C4",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "DIN3",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "DIN4",
+          "contribution": 3.0
+        }
+      ],
+      "description": "Architecture type (technical): cloud_native.",
+      "is_active": true,
+      "rule_key": "at-technical-cloud_native"
+    },
+    {
+      "all": [
+        {
+          "in": [
+            "containerized"
+          ],
+          "source": "architectureTypeSection.technicalArchitectureType"
+        }
+      ],
+      "any": [],
+      "contributions": [
+        {
+          "concern_key": "C1",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "DIN3",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "DIN4",
+          "contribution": 3.0
+        }
+      ],
+      "description": "Architecture type (technical): containerized.",
+      "is_active": true,
+      "rule_key": "at-technical-containerized"
+    },
+    {
+      "all": [
+        {
+          "in": [
+            "on_premise"
+          ],
+          "source": "architectureTypeSection.technicalArchitectureType"
+        }
+      ],
+      "any": [],
+      "contributions": [
+        {
+          "concern_key": "DIN2",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "DIN3",
+          "contribution": 3.0
+        }
+      ],
+      "description": "Architecture type (technical): on_premise.",
+      "is_active": true,
+      "rule_key": "at-technical-on_premise"
+    },
+    {
+      "all": [
+        {
+          "in": [
+            "hybrid_multicloud"
+          ],
+          "source": "architectureTypeSection.technicalArchitectureType"
+        }
+      ],
+      "any": [],
+      "contributions": [
+        {
+          "concern_key": "DIN1",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "DIN2",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "DIN3",
+          "contribution": 3.0
+        }
+      ],
+      "description": "Architecture type (technical): hybrid_multicloud.",
+      "is_active": true,
+      "rule_key": "at-technical-hybrid_multicloud"
+    },
+    {
+      "all": [
+        {
+          "in": [
+            "legacy_modernization"
+          ],
+          "source": "architectureTypeSection.technicalArchitectureType"
+        }
+      ],
+      "any": [],
+      "contributions": [
+        {
+          "concern_key": "AGD2",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "C3",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "C4",
+          "contribution": 3.0
+        }
+      ],
+      "description": "Architecture type (technical): legacy_modernization.",
+      "is_active": true,
+      "rule_key": "at-technical-legacy_modernization"
+    },
+    {
+      "all": [
+        {
+          "in": [
+            "high_availability"
+          ],
+          "source": "architectureTypeSection.technicalArchitectureType"
+        }
+      ],
+      "any": [],
+      "contributions": [
+        {
+          "concern_key": "OR2",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "OR3",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "A6",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "DIN5",
+          "contribution": 5.0
+        },
+        {
+          "concern_key": "OR5",
+          "contribution": 5.0
+        }
+      ],
+      "description": "Architecture type (technical): high_availability.",
+      "is_active": true,
+      "rule_key": "at-technical-high_availability"
+    },
+    {
+      "all": [
+        {
+          "in": [
+            "relational_oltp"
+          ],
+          "source": "architectureTypeSection.dataArchitectureType"
+        }
+      ],
+      "any": [],
+      "contributions": [
+        {
+          "concern_key": "D5",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "D10",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "D11",
+          "contribution": 3.0
+        }
+      ],
+      "description": "Architecture type (data): relational_oltp.",
+      "is_active": true,
+      "rule_key": "at-data-relational_oltp"
+    },
+    {
+      "all": [
+        {
+          "in": [
+            "data_warehouse"
+          ],
+          "source": "architectureTypeSection.dataArchitectureType"
+        }
+      ],
+      "any": [],
+      "contributions": [
+        {
+          "concern_key": "D1",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "D2",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "D4",
+          "contribution": 3.0
+        }
+      ],
+      "description": "Architecture type (data): data_warehouse.",
+      "is_active": true,
+      "rule_key": "at-data-data_warehouse"
+    },
+    {
+      "all": [
+        {
+          "in": [
+            "data_lake"
+          ],
+          "source": "architectureTypeSection.dataArchitectureType"
+        }
+      ],
+      "any": [],
+      "contributions": [
+        {
+          "concern_key": "D3",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "D8",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "D6",
+          "contribution": 3.0
+        }
+      ],
+      "description": "Architecture type (data): data_lake.",
+      "is_active": true,
+      "rule_key": "at-data-data_lake"
+    },
+    {
+      "all": [
+        {
+          "in": [
+            "streaming"
+          ],
+          "source": "architectureTypeSection.dataArchitectureType"
+        }
+      ],
+      "any": [],
+      "contributions": [
+        {
+          "concern_key": "D8",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "IP6",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "OR4",
+          "contribution": 3.0
+        }
+      ],
+      "description": "Architecture type (data): streaming.",
+      "is_active": true,
+      "rule_key": "at-data-streaming"
+    },
+    {
+      "all": [
+        {
+          "in": [
+            "ai_ml"
+          ],
+          "source": "architectureTypeSection.dataArchitectureType"
+        }
+      ],
+      "any": [],
+      "contributions": [
+        {
+          "concern_key": "D6",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "D3",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "OR4",
+          "contribution": 3.0
+        }
+      ],
+      "description": "Architecture type (data): ai_ml.",
+      "is_active": true,
+      "rule_key": "at-data-ai_ml"
+    },
+    {
+      "all": [
+        {
+          "in": [
+            "llm_rag"
+          ],
+          "source": "architectureTypeSection.dataArchitectureType"
+        }
+      ],
+      "any": [],
+      "contributions": [
+        {
+          "concern_key": "D6",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "D7",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "SCR1",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "OR4",
+          "contribution": 3.0
+        }
+      ],
+      "description": "Architecture type (data): llm_rag.",
+      "is_active": true,
+      "rule_key": "at-data-llm_rag"
+    },
+    {
+      "all": [
+        {
+          "in": [
+            "master_data"
+          ],
+          "source": "architectureTypeSection.dataArchitectureType"
+        }
+      ],
+      "any": [],
+      "contributions": [
+        {
+          "concern_key": "D4",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "D5",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "D6",
+          "contribution": 3.0
+        }
+      ],
+      "description": "Architecture type (data): master_data.",
+      "is_active": true,
+      "rule_key": "at-data-master_data"
+    },
+    {
+      "all": [
+        {
+          "in": [
+            "zero_trust"
+          ],
+          "source": "architectureTypeSection.securityArchitectureType"
+        }
+      ],
+      "any": [],
+      "contributions": [
+        {
+          "concern_key": "SCR1",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "SCR4",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "SCR5",
+          "contribution": 3.0
+        }
+      ],
+      "description": "Architecture type (security): zero_trust.",
+      "is_active": true,
+      "rule_key": "at-security-zero_trust"
+    },
+    {
+      "all": [
+        {
+          "in": [
+            "iam_integration"
+          ],
+          "source": "architectureTypeSection.securityArchitectureType"
+        }
+      ],
+      "any": [],
+      "contributions": [
+        {
+          "concern_key": "SCR4",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "SCR5",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "SCR6",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "A4",
+          "contribution": 3.0
+        }
+      ],
+      "description": "Architecture type (security): iam_integration.",
+      "is_active": true,
+      "rule_key": "at-security-iam_integration"
+    },
+    {
+      "all": [
+        {
+          "in": [
+            "perimeter_network"
+          ],
+          "source": "architectureTypeSection.securityArchitectureType"
+        }
+      ],
+      "any": [],
+      "contributions": [
+        {
+          "concern_key": "SCR1",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "SCR3",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "DIN2",
+          "contribution": 3.0
+        }
+      ],
+      "description": "Architecture type (security): perimeter_network.",
+      "is_active": true,
+      "rule_key": "at-security-perimeter_network"
+    },
+    {
+      "all": [
+        {
+          "in": [
+            "data_protection"
+          ],
+          "source": "architectureTypeSection.securityArchitectureType"
+        }
+      ],
+      "any": [],
+      "contributions": [
+        {
+          "concern_key": "SCR1",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "SCR2",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "D7",
+          "contribution": 3.0
+        }
+      ],
+      "description": "Architecture type (security): data_protection.",
+      "is_active": true,
+      "rule_key": "at-security-data_protection"
+    },
+    {
+      "all": [
+        {
+          "in": [
+            "compliance_driven"
+          ],
+          "source": "architectureTypeSection.securityArchitectureType"
+        }
+      ],
+      "any": [],
+      "contributions": [
+        {
+          "concern_key": "SCR7",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "D7",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "AGD1",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "AGD6",
+          "contribution": 5.0
+        },
+        {
+          "concern_key": "AGD7",
+          "contribution": 5.0
+        }
+      ],
+      "description": "Architecture type (security): compliance_driven.",
+      "is_active": true,
+      "rule_key": "at-security-compliance_driven"
+    },
+    {
+      "all": [
+        {
+          "in": [
+            "cross_border"
+          ],
+          "source": "architectureTypeSection.securityArchitectureType"
+        }
+      ],
+      "any": [],
+      "contributions": [
+        {
+          "concern_key": "D9",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "D7",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "DIN1",
+          "contribution": 3.0
+        },
+        {
+          "concern_key": "SCR7",
+          "contribution": 3.0
+        }
+      ],
+      "description": "Architecture type (security): cross_border.",
+      "is_active": true,
+      "rule_key": "at-security-cross_border"
+    }
+  ]
+}
