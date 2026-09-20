@@ -18,7 +18,7 @@ As a result, `Mandatory` and `Recommended` outcomes can only ever appear among
 
 | Fixture | Concerns | Activated | Coverage | M/R/O (activated) | M/R/O (unactivated) |
 |---|---:|---:|---:|---|---|
-| `case_x_fixture` | 61 | 23 | 0.38 | 13/10/0 | 0/0/38 |
+| `case_x_fixture` | 61 | 46 | 0.75 | 32/14/0 | 0/0/15 |
 | `case_m_fixture` | 61 | 17 | 0.28 | 5/10/2 | 0/0/44 |
 | `case_low_risk_fixture` | 61 | 5 | 0.08 | 0/4/1 | 0/0/56 |
 

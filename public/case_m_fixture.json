@@ -435,7 +435,7 @@
     {
       "classification": "Optional",
       "concern_key": "SCR11",
-      "definition": "Map authentication, authorization, and least privilege controls.",
+      "definition": "Access governance. Are least-privilege, access-review, joiner-mover-leaver, and privileged-account controls defined?",
       "layer": "Security, Compliance & Risk",
       "score": 0.0,
       "viewpoint": "Identity and Access Control"
