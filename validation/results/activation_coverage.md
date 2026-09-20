@@ -2,8 +2,7 @@
 
 AVDM scores every concern, but only concerns activated by questionnaire
 answers or concern-mapping rules receive a non-zero activation. A concern
-with no activation falls back to the project-complexity boost
-(`0.15 * project_complexity`) and therefore always classifies as Optional.
+with no activation receives score zero and therefore always classifies as Optional.
 
 Consequently, Mandatory/Recommended outcomes can only appear among
 activated concerns. Unactivated Optional concerns reflect missing input

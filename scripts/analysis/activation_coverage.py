@@ -48,8 +48,8 @@ def main() -> None:
     parser = argparse.ArgumentParser(
         description=(
             "Report questionnaire activation coverage per public fixture. "
-            "Concerns with no activation receive only the complexity boost and "
-            "always classify as Optional, so Mandatory/Recommended outcomes can "
+            "Concerns with no activation receive score zero and always classify "
+            "as Optional, so Mandatory/Recommended outcomes can "
             "only occur among activated concerns."
         )
     )
@@ -110,8 +110,7 @@ def main() -> None:
         "",
         "AVDM scores every concern, but only concerns activated by questionnaire",
         "answers or concern-mapping rules receive a non-zero activation. A concern",
-        "with no activation falls back to the project-complexity boost",
-        "(`0.15 * project_complexity`) and therefore always classifies as Optional.",
+        "with no activation receives score zero and therefore always classifies as Optional.",
         "",
         "Consequently, Mandatory/Recommended outcomes can only appear among",
         "activated concerns. Unactivated Optional concerns reflect missing input",

@@ -1,4 +1,4 @@
 scenario,complexity,mandatory,recommended,optional,mandatory_share
-Case X (high risk),0.5,13,10,38,0.2131
+Case X (high risk),0.5,32,14,15,0.5246
 Case M (moderate risk),0.4,5,10,46,0.082
 Case L (lower-bound check),0.2,0,4,57,0.0

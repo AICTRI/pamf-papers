@@ -5,24 +5,27 @@ Project complexity: `0.500`; concerns classified: `61`.
 
 ## Baseline
 
-Mandatory: 13; Recommended: 10; Optional: 38.
+Mandatory: 32; Recommended: 14; Optional: 15.
 
-## Uniform Weight Perturbation
+## Uniform Aggregated-Activation Perturbation
+
+The multiplier is applied to frozen per-concern aggregated activation totals, not to individual mapping or rule weights; this test does not rerun max-plus-bonus aggregation.
 
 | Weight multiplier | Mandatory | Recommended | Optional |
 |---:|---:|---:|---:|
-| 0.8 | 12 | 11 | 38 |
-| 0.9 | 13 | 10 | 38 |
-| 1.0 | 13 | 10 | 38 |
-| 1.1 | 13 | 10 | 38 |
-| 1.2 | 13 | 10 | 38 |
+| 0.8 | 0 | 46 | 15 |
+| 0.9 | 27 | 19 | 15 |
+| 1.0 | 32 | 14 | 15 |
+| 1.1 | 38 | 8 | 15 |
+| 1.2 | 38 | 8 | 15 |
 
-## Cross-Border Combination-Rule Ablation
+## Cross-Border Aggregate-Score Stress Test
 
 | Condition | Mandatory | Recommended | Optional |
 |---|---:|---:|---:|
-| combination_rule_enabled | 13 | 10 | 38 |
-| combination_rule_ablated | 9 | 13 | 39 |
+| aggregate_scores_reference | 32 | 14 | 15 |
+| four_scores_reduced_by_2p0 | 28 | 18 | 15 |
 
 Threshold-grid results are in `threshold_sensitivity.csv`.
-The analysis evaluates robustness of classifications, not their external correctness.
+The four selected aggregate scores are reduced by 2.0 as a transparent counterfactual stress test; this is not a replay of the underlying rule engine.
+The analysis evaluates robustness of frozen aggregate classifications, not raw mapping weights or external correctness.

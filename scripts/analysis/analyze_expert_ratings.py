@@ -179,6 +179,7 @@ def main() -> None:
         for path, expert in zip(rating_files, experts)
     ]
     consensus = {item_id: majority_rating(experts, item_id) for item_id in item_ids}
+    majority_distribution = Counter(consensus.values())
     disagreements = [
         {
             "item_id": item_id,
@@ -199,6 +200,9 @@ def main() -> None:
         "majority_vs_avdm": {
             "exact_agreement": exact_agreement(consensus, reference, item_ids),
             "weighted_kappa": weighted_kappa(consensus, reference, item_ids),
+        },
+        "majority_distribution": {
+            label: majority_distribution[label] for label in LABELS
         },
         "disagreements": disagreements,
     }

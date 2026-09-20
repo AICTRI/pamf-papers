@@ -6,10 +6,8 @@ Read this before comparing AVDM classifications with expert judgements.
 
 AVDM is driven by structured questionnaire answers plus concern-mapping and
 activation rules. Only concerns touched by a selected answer or an activated
-rule produce a risk item. Every other concern is still scored, but with zero
-activation: its score is just the project-complexity boost
-(`0.15 * project_complexity`) and it therefore classifies as **Optional by
-construction**, independent of the case.
+rule produce a risk item. Every other concern receives score zero and therefore
+classifies as **Optional by construction**, independent of project complexity.
 
 As a result, `Mandatory` and `Recommended` outcomes can only ever appear among
 **activated** concerns.

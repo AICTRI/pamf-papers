@@ -12,7 +12,9 @@ The source of truth for the release decision is
 - Analysis scripts that contain no personal data or local identifiers.
 - Study protocol, case briefs, blank rating forms, and recruitment templates
   (with live study URLs redacted).
-- Aggregate agreement statistics reported by pseudonymous participant ID.
+- Aggregate agreement statistics for both rounds, reported by pseudonymous
+  participant ID: `validation/expert-study-cn/round1/round1_agreement.json`
+  and `validation/expert-study-cn/round2/round2_results.json`.
 
 ## Deliberately excluded (held in the private repository)
 

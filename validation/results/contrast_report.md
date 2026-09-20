@@ -1,18 +1,18 @@
 # Contrast Analysis: Saturated vs Low-Risk Scenario
 
-## Scenario summary at reference configuration (0.66 / 0.38)
+## Scenario summary at reference configuration (0.90 / 0.50)
 
 | Scenario | Complexity | Mandatory | Recommended | Optional | Mandatory share |
 |---|---:|---:|---:|---:|---:|
-| Case X (high risk) | 0.50 | 13 | 10 | 38 | 21.3% |
+| Case X (high risk) | 0.50 | 32 | 14 | 15 | 52.5% |
 | Case M (moderate risk) | 0.40 | 5 | 10 | 46 | 8.2% |
 | Case L (lower-bound check) | 0.20 | 0 | 4 | 57 | 0.0% |
 
 ## Expert agreement on the saturated scenario
 
 - Fleiss' kappa among experts: -0.036
-- Expert-majority vs AVDM exact agreement: 0.230
-- Expert-majority vs AVDM weighted kappa: 0.011
+- Expert-majority vs AVDM exact agreement: 0.541
+- Expert-majority vs AVDM weighted kappa: 0.062
 - Expert-majority Mandatory count: 56 of 61
 
 The saturated scenario activates every major risk dimension, so expert
@@ -24,7 +24,7 @@ almost no Mandatory viewpoints when the risk signals are absent.
 ## Threshold behaviour
 
 `threshold_contrast.csv` reports both scenarios across mandatory
-thresholds from 0.60 to 0.90. As the threshold rises, AVDM can be forced
+thresholds from 0.80 to 0.95. As the threshold rises, AVDM can be forced
 to emit fewer Mandatory viewpoints, but the Recommended band disappears,
 so a single global threshold cannot reproduce an expert-style all-Mandatory
 partition. This is the concrete configuration limitation, and it is a

@@ -5,14 +5,22 @@
 - `public/README.md`
 - `public/case_x_fixture.json`
 - `public/case_x_fixture.sha256`
+- `public/case_m_fixture.json`
+- `public/case_m_fixture.sha256`
+- `public/case_low_risk_fixture.json`
+- `public/case_low_risk_fixture.sha256`
 - `run_sensitivity.py`
+- `activation_coverage.py`
 - `analyze_expert_ratings.py`
 - `test_analysis.py`
 - `expert-study/case_brief.md`
 - `expert-study/protocol.md`
 - `expert-study/expert_rating_form_R3.xlsx`
 - Recruitment, screening, consent, assignment, and debrief templates except the private tracker
-- Aggregate sensitivity and agreement results
+- Aggregate sensitivity, threshold, and contrast results
+- `expert-study-cn/round1/round1_agreement.json` (privacy-safe aggregate; participant metadata and per-item individual ratings removed by `export_public_agreement.py`)
+- `expert-study-cn/round2/round2_results.json` (frozen aggregate)
+- `scripts/analysis/export_public_agreement.py`, which documents the sanitization step
 - De-identified per-item labels only when participants separately consent
 
 ## Never Release

@@ -14,7 +14,8 @@ for the boundary.
 |------|-------------|
 | `public/` | Fictional benchmark fixtures (`case_x`, `case_m`, `case_low_risk`) with SHA-256 digests, the release manifest, and the input-representation note |
 | `validation/expert-study/` | Blind expert comparison protocol, case brief, rating form, and recruitment templates |
-| `validation/expert-study-cn/` | China-track case brief and aggregate round-2 agreement results |
+| `validation/expert-study-cn/round1/` | China-track Case X brief and aggregate round-1 agreement summary |
+| `validation/expert-study-cn/round2/` | China-track forced top-20 priority-budget results |
 | `validation/results/` | Aggregate sensitivity, threshold, and combination-rule results |
 | `validation/survey-forms/` | Questionnaire item bank and platform import templates |
 | `scripts/analysis/` | Reproducible sensitivity and agreement analysis scripts |
@@ -22,8 +23,8 @@ for the boundary.
 ## Input representation caveat
 
 AVDM is questionnaire-driven. Only concerns activated by a selected answer or
-an activated rule are scored; every other concern falls back to the
-project-complexity boost and classifies as `Optional`. `Mandatory`/`Recommended`
+an activated rule are scored; every other concern receives score zero and
+classifies as `Optional`. `Mandatory`/`Recommended`
 therefore only occur among activated concerns. Read
 [`public/INPUT_REPRESENTATION.md`](public/INPUT_REPRESENTATION.md) before
 comparing AVDM classifications with expert judgements; per-fixture coverage is
@@ -41,7 +42,11 @@ python scripts/analysis/activation_coverage.py
 ```
 
 The expert-rating analysis (`scripts/analysis/analyze_expert_ratings.py`)
-requires frozen participant workbooks that are not distributed publicly.
+requires frozen participant workbooks that are not distributed publicly. The
+published `validation/expert-study-cn/round1/round1_agreement.json` is a
+privacy-safe aggregate produced by
+`scripts/analysis/export_public_agreement.py` from the private
+`agreement_results.json`.
 
 ## Related software
 

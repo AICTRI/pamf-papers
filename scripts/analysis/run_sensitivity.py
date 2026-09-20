@@ -17,9 +17,10 @@ CLASSIFICATIONS = ("Mandatory", "Recommended", "Optional")
 
 
 def concern_score(raw_score: float, complexity: float, weight_scale: float = 1.0) -> float:
-    # Continuous, floor-zero scoring: unactivated concerns score 0.0; activated
-    # ones score min(25, raw * scale) / 25 plus the complexity boost. This
-    # replaces the coarse ceil(sqrt()) risk-level transform.
+    # Continuous, floor-zero scoring on the 0-5 contribution scale: unactivated
+    # concerns score exactly 0.0; activated ones score
+    # min(5, raw * scale) / 5 plus the complexity boost. The optional scale
+    # multiplies an already aggregated activation, not an individual mapping.
     if raw_score <= 0:
         return 0.0
     base = min(5.0, raw_score * weight_scale) / 5.0
@@ -143,8 +144,8 @@ def main() -> None:
     baseline = distribution(concern_keys, scores, complexity, 0.90, 0.50)
     ablated = distribution(concern_keys, ablated_scores, complexity, 0.90, 0.50)
     ablation_rows = [
-        {"condition": "combination_rule_enabled", **baseline},
-        {"condition": "combination_rule_ablated", **ablated},
+        {"condition": "aggregate_scores_reference", **baseline},
+        {"condition": "four_scores_reduced_by_2p0", **ablated},
     ]
     write_csv(
         args.output_dir / "combination_rule_ablation.csv",
@@ -162,7 +163,9 @@ def main() -> None:
         "",
         f"Mandatory: {baseline['Mandatory']}; Recommended: {baseline['Recommended']}; Optional: {baseline['Optional']}.",
         "",
-        "## Uniform Weight Perturbation",
+        "## Uniform Aggregated-Activation Perturbation",
+        "",
+        "The multiplier is applied to frozen per-concern aggregated activation totals, not to individual mapping or rule weights; this test does not rerun max-plus-bonus aggregation.",
         "",
         "| Weight multiplier | Mandatory | Recommended | Optional |",
         "|---:|---:|---:|---:|",
@@ -174,7 +177,7 @@ def main() -> None:
     report.extend(
         [
             "",
-            "## Cross-Border Combination-Rule Ablation",
+            "## Cross-Border Aggregate-Score Stress Test",
             "",
             "| Condition | Mandatory | Recommended | Optional |",
             "|---|---:|---:|---:|",
@@ -188,7 +191,8 @@ def main() -> None:
         [
             "",
             "Threshold-grid results are in `threshold_sensitivity.csv`.",
-            "The analysis evaluates robustness of classifications, not their external correctness.",
+            "The four selected aggregate scores are reduced by 2.0 as a transparent counterfactual stress test; this is not a replay of the underlying rule engine.",
+            "The analysis evaluates robustness of frozen aggregate classifications, not raw mapping weights or external correctness.",
         ]
     )
     (args.output_dir / "sensitivity_report.md").write_text(

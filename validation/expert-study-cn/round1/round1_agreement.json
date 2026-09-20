@@ -1,0 +1,194 @@
+{
+  "disagreements": [
+    {
+      "avdm": "Recommended",
+      "expert_majority": "Mandatory",
+      "item_id": "A4"
+    },
+    {
+      "avdm": "Recommended",
+      "expert_majority": "Mandatory",
+      "item_id": "A5"
+    },
+    {
+      "avdm": "Optional",
+      "expert_majority": "Mandatory",
+      "item_id": "AGD4"
+    },
+    {
+      "avdm": "Recommended",
+      "expert_majority": "Mandatory",
+      "item_id": "AGD6"
+    },
+    {
+      "avdm": "Recommended",
+      "expert_majority": "Mandatory",
+      "item_id": "B3"
+    },
+    {
+      "avdm": "Optional",
+      "expert_majority": "Mandatory",
+      "item_id": "B4"
+    },
+    {
+      "avdm": "Recommended",
+      "expert_majority": "Mandatory",
+      "item_id": "B5"
+    },
+    {
+      "avdm": "Mandatory",
+      "expert_majority": "Recommended",
+      "item_id": "C1"
+    },
+    {
+      "avdm": "Optional",
+      "expert_majority": "Mandatory",
+      "item_id": "D1"
+    },
+    {
+      "avdm": "Optional",
+      "expert_majority": "Mandatory",
+      "item_id": "D10"
+    },
+    {
+      "avdm": "Optional",
+      "expert_majority": "Mandatory",
+      "item_id": "D11"
+    },
+    {
+      "avdm": "Optional",
+      "expert_majority": "Mandatory",
+      "item_id": "D2"
+    },
+    {
+      "avdm": "Optional",
+      "expert_majority": "Mandatory",
+      "item_id": "D5"
+    },
+    {
+      "avdm": "Recommended",
+      "expert_majority": "Mandatory",
+      "item_id": "DIN4"
+    },
+    {
+      "avdm": "Recommended",
+      "expert_majority": "Mandatory",
+      "item_id": "DIN5"
+    },
+    {
+      "avdm": "Recommended",
+      "expert_majority": "Mandatory",
+      "item_id": "DIN6"
+    },
+    {
+      "avdm": "Optional",
+      "expert_majority": "Mandatory",
+      "item_id": "IP3"
+    },
+    {
+      "avdm": "Optional",
+      "expert_majority": "Mandatory",
+      "item_id": "IP4"
+    },
+    {
+      "avdm": "Optional",
+      "expert_majority": "Mandatory",
+      "item_id": "IP5"
+    },
+    {
+      "avdm": "Recommended",
+      "expert_majority": "Mandatory",
+      "item_id": "IP6"
+    },
+    {
+      "avdm": "Optional",
+      "expert_majority": "Mandatory",
+      "item_id": "IP7"
+    },
+    {
+      "avdm": "Recommended",
+      "expert_majority": "Mandatory",
+      "item_id": "IP8"
+    },
+    {
+      "avdm": "Recommended",
+      "expert_majority": "Mandatory",
+      "item_id": "OR1"
+    },
+    {
+      "avdm": "Optional",
+      "expert_majority": "Mandatory",
+      "item_id": "OR2"
+    },
+    {
+      "avdm": "Optional",
+      "expert_majority": "Mandatory",
+      "item_id": "OR5"
+    },
+    {
+      "avdm": "Optional",
+      "expert_majority": "Mandatory",
+      "item_id": "SCR11"
+    },
+    {
+      "avdm": "Mandatory",
+      "expert_majority": "Recommended",
+      "item_id": "SCR2"
+    },
+    {
+      "avdm": "Recommended",
+      "expert_majority": "Mandatory",
+      "item_id": "SCR6"
+    }
+  ],
+  "expert_count": 3,
+  "expert_vs_avdm": [
+    {
+      "exact_agreement": 0.5245901639344263,
+      "expert": "CN1",
+      "weighted_kappa": 0.006661732050333269
+    },
+    {
+      "exact_agreement": 0.39344262295081966,
+      "expert": "CN2",
+      "weighted_kappa": 0.019035116508040684
+    },
+    {
+      "exact_agreement": 0.5081967213114754,
+      "expert": "CN3",
+      "weighted_kappa": 0.0767335445265751
+    }
+  ],
+  "fleiss_kappa": -0.03569272562632033,
+  "item_count": 61,
+  "majority_distribution": {
+    "Mandatory": 56,
+    "Optional": 1,
+    "Recommended": 4
+  },
+  "majority_vs_avdm": {
+    "exact_agreement": 0.5409836065573771,
+    "weighted_kappa": 0.06153846153846154
+  },
+  "pairwise": [
+    {
+      "exact_agreement": 0.5245901639344263,
+      "left": "CN1",
+      "right": "CN2",
+      "weighted_kappa": 0.013117621337997432
+    },
+    {
+      "exact_agreement": 0.7213114754098361,
+      "left": "CN1",
+      "right": "CN3",
+      "weighted_kappa": -0.11488250652741505
+    },
+    {
+      "exact_agreement": 0.5245901639344263,
+      "left": "CN2",
+      "right": "CN3",
+      "weighted_kappa": 0.11594202898550743
+    }
+  ],
+  "release_note": "Aggregate statistics only. Participant metadata and per-item individual ratings are withheld to protect participant privacy."
+}
