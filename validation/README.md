@@ -1,6 +1,7 @@
-# AVDM R3 Validation Materials (Public Subset)
+# AVDM Validation Materials (Public Subset)
 
-Reproducible validation materials for the R3 revision of the AVDM manuscript.
+Reproducible validation materials for the AVDM manuscript (R4 revision; software
+tagged `R4.0`).
 All cases are constructed, fictional benchmarks and do not represent any actual
 company, client, employee, or project.
 
